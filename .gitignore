@@ -1,0 +1,6 @@
+.next/
+.vercel/
+build/
+coverage/
+node_modules/
+.env*.local

@@ -1,0 +1,42 @@
+{
+  "engines": {
+    "node": ">=20.11.1"
+  },
+  "name": "infernum-wiki",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "pnpm run '/^lint:.+/'",
+    "lint:code": "eslint .",
+    "lint:format": "prettier --check --log-level warn app/",
+    "lint:prune": "knip",
+    "lint:typings": "tsc",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/cache": "11.11.0",
+    "@emotion/react": "11.11.4",
+    "@emotion/styled": "11.11.0",
+    "@korumite/kiwi": "1.2.0",
+    "@mdi/js": "7.4.47",
+    "@mdi/react": "1.6.1",
+    "@mui/material": "5.15.14",
+    "@mui/material-nextjs": "5.15.11",
+    "next": "14.1.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.2.0",
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.67",
+    "@types/react-dom": "18.2.22",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.1.3",
+    "knip": "5.2.2",
+    "prettier": "3.2.5",
+    "typescript": "5.4.3"
+  }
+}
