@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "plugin:import/typescript",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "rules": {
+    "import/consistent-type-specifier-style": ["error", "prefer-inline"],
+    "import/order": "off",
+    "react/react-in-jsx-scope": "off"
+  }
 }

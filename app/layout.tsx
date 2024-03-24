@@ -1,6 +1,6 @@
 import { Box, CssBaseline, Toolbar } from '@mui/material';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
-import type { Metadata, Viewport } from 'next';
+import { type Metadata, type Viewport } from 'next';
 import { PropsWithChildren } from 'react';
 
 import { DrawerAndHeader } from '@/components/DrawerAndHeader';
