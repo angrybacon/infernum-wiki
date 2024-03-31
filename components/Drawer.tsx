@@ -10,7 +10,7 @@ import {
   Drawer as MuiDrawer,
   Toolbar,
 } from '@mui/material';
-import { FunctionComponent, useContext } from 'react';
+import { useContext, type FunctionComponent } from 'react';
 
 import { DrawerContext } from '@/contexts/DrawerContext';
 

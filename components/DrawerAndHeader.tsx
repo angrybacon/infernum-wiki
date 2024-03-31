@@ -1,6 +1,6 @@
 'use client';
 
-import { FunctionComponent, useState } from 'react';
+import { useState, type FunctionComponent } from 'react';
 
 import { Drawer } from '@/components/Drawer';
 import { Header } from '@/components/Header';

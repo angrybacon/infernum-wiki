@@ -10,7 +10,7 @@ import {
   Toolbar,
   useScrollTrigger,
 } from '@mui/material';
-import { FunctionComponent, useContext } from 'react';
+import { useContext, type FunctionComponent } from 'react';
 
 import { DrawerContext } from '@/contexts/DrawerContext';
 

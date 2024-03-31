@@ -2,7 +2,7 @@
 
 import { createTheme, ThemeProvider, useMediaQuery } from '@mui/material';
 import { Roboto } from 'next/font/google';
-import { FunctionComponent, PropsWithChildren, useMemo } from 'react';
+import { useMemo, type FunctionComponent, type PropsWithChildren } from 'react';
 
 const roboto = Roboto({
   display: 'swap',
