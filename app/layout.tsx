@@ -1,4 +1,4 @@
-import { Box, CssBaseline, Toolbar } from '@mui/material';
+import { Box, Container, CssBaseline, Toolbar } from '@mui/material';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import { type Metadata, type Viewport } from 'next';
 import { PropsWithChildren } from 'react';
@@ -21,17 +21,15 @@ export default function Layout({ children }: PropsWithChildren) {
     <Theme>
       <CssBaseline />
       <html lang="en">
-        <body>
+        <Box component="body" sx={{ display: 'flex' }}>
           <AppRouterCacheProvider>
-            <Box sx={{ display: 'flex' }}>
-              <DrawerAndHeader />
-              <Box component="main" sx={{ p: { xs: 2, sm: 3 } }}>
-                <Toolbar role="presentation" />
-                {children}
-              </Box>
+            <DrawerAndHeader />
+            <Box component="main" sx={{ mx: 'auto' }}>
+              <Toolbar role="presentation" />
+              <Container maxWidth="md">{children}</Container>
             </Box>
           </AppRouterCacheProvider>
-        </body>
+        </Box>
       </html>
     </Theme>
   );
