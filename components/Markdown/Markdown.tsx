@@ -5,10 +5,17 @@ import { type FunctionComponent } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 
 import { Code } from '@/components/Markdown/Code';
+import { Heading } from '@/components/Markdown/Heading';
 import { Image } from '@/components/Markdown/Image';
 
 const COMPONENTS = {
   code: Code,
+  h1: Heading,
+  h2: Heading,
+  h3: Heading,
+  h4: Heading,
+  h5: Heading,
+  h6: Heading,
   hr: () => <Divider />,
   img: Image,
   pre: ({ children }) => <>{children}</>,
