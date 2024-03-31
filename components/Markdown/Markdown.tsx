@@ -5,10 +5,12 @@ import { type FunctionComponent } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 
 import { Code } from '@/components/Markdown/Code';
+import { Image } from '@/components/Markdown/Image';
 
 const COMPONENTS = {
   code: Code,
   hr: () => <Divider />,
+  img: Image,
   pre: ({ children }) => <>{children}</>,
 } as const satisfies Components;
 

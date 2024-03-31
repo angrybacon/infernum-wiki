@@ -75,3 +75,23 @@ export const toDirective = (text: string): string => {
   return result;
 };
 ```
+
+## Accordions
+
+_Todo_
+
+## Images
+
+```md
+![A large placeholder image](https://www.placehold.co/1600x200 'High resolution')
+
+![A medium placeholder image](https://www.placehold.co/800x100 'Medium resolution')
+
+![A small placeholder image](https://www.placehold.co/400x50 'Low resolution')
+```
+
+![A large placeholder image](https://www.placehold.co/1600x200 'High resolution')
+
+![A medium placeholder image](https://www.placehold.co/800x100 'Medium resolution')
+
+![A small placeholder image](https://www.placehold.co/400x50 'Low resolution')
