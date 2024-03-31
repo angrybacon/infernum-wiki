@@ -17,6 +17,9 @@ export const Theme: FunctionComponent<PropsWithChildren> = ({ children }) => {
   const theme = useMemo(
     () =>
       createTheme({
+        components: {
+          MuiCssBaseline: { styleOverrides: { p: { margin: 0 } } },
+        },
         palette: { mode: withLightMode ? 'light' : 'dark' },
         typography: { fontFamily: roboto.style.fontFamily },
       }),

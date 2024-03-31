@@ -19,7 +19,7 @@ export const Header: FunctionComponent = () => {
   const trigger = useScrollTrigger({ disableHysteresis: true, threshold: 0 });
   return (
     <AppBar
-      elevation={trigger ? 4 : 0}
+      elevation={trigger ? 1 : 0}
       sx={({ palette }) => ({
         backdropFilter: 'blur(8px)',
         backgroundColor: alpha(palette.background.paper, 0.8),

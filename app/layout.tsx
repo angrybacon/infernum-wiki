@@ -4,6 +4,7 @@ import { type Metadata, type Viewport } from 'next';
 import { type PropsWithChildren } from 'react';
 
 import { DrawerAndHeader } from '@/components/DrawerAndHeader';
+import { Footer } from '@/components/Footer';
 import { Theme } from '@/components/Theme';
 
 export const metadata: Metadata = {
@@ -24,10 +25,21 @@ export default function Layout({ children }: PropsWithChildren) {
         <Box component="body" sx={{ display: 'flex' }}>
           <AppRouterCacheProvider>
             <DrawerAndHeader />
-            <Box component="main" sx={{ mx: 'auto' }}>
+            <Container
+              component="main"
+              maxWidth="md"
+              sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                gap: { xs: 2, sm: 4 },
+                height: '100vh',
+                mx: 'auto',
+              }}
+            >
               <Toolbar role="presentation" />
-              <Container maxWidth="md">{children}</Container>
-            </Box>
+              {children}
+              <Footer sx={{ mt: 'auto', pb: 2 }} />
+            </Container>
           </AppRouterCacheProvider>
         </Box>
       </html>
