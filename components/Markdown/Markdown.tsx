@@ -7,8 +7,10 @@ import ReactMarkdown, { type Components } from 'react-markdown';
 import { Code } from '@/components/Markdown/Code';
 import { Heading } from '@/components/Markdown/Heading';
 import { Image } from '@/components/Markdown/Image';
+import { Quote } from '@/components/Markdown/Quote';
 
 const COMPONENTS = {
+  blockquote: Quote,
   code: Code,
   h1: Heading,
   h2: Heading,

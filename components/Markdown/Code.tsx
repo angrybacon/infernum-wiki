@@ -1,5 +1,4 @@
-import { Box } from '@mui/material';
-import { alpha } from '@mui/material/styles';
+import { alpha, Box } from '@mui/material';
 import {
   type Component,
   type FunctionComponent,
@@ -26,7 +25,7 @@ const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
     sx={({ shape }) => ({
       borderRadius: shape.borderRadius,
       display: 'block',
-      fontSize: '0.9em',
+      fontSize: 'body2.fontSize',
       p: 2,
     })}
   >
@@ -41,7 +40,6 @@ const CodeInline: FunctionComponent<PropsWithChildren> = ({ children }) => (
       bgcolor: alpha(palette.primary.main, 0.2),
       borderRadius: 1,
       color: 'text.secondary',
-      fontDisplay: 'swap',
       fontFamily: 'monospace',
       fontSize: 'body2.fontSize',
       px: 0.5,

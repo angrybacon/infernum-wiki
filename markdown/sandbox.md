@@ -5,14 +5,58 @@
 ```md
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit `rutrum orci`, et congue sapien turpis quis purus. Suspendisse
-ex ligula, elementum elementum arcu eu, :spoiler[efficitur pharetra] quam.
+libero elit `rutrum orci`, et congue sapien turpis quis purus.
+
+Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
+quam.
 ```
 
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit `rutrum orci`, et congue sapien turpis quis purus. Suspendisse
-ex ligula, elementum elementum arcu eu, :spoiler[efficitur pharetra] quam.
+libero elit `rutrum orci`, et congue sapien turpis quis purus.
+
+Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
+quam.
+
+### Quotes
+
+```md
+> Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+> tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+> libero elit `rutrum orci`, et congue sapien turpis quis purus.
+>
+> Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur]
+> pharetra quam.
+```
+
+> Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+> tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+> libero elit `rutrum orci`, et congue sapien turpis quis purus.
+>
+> Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur]
+> pharetra quam.
+
+### Spoilers
+
+```md
+:::spoiler
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit `rutrum orci`, et congue sapien turpis quis purus.
+
+Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
+quam.
+:::
+```
+
+:::spoiler
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit `rutrum orci`, et congue sapien turpis quis purus.
+
+Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
+quam.
+:::
 
 ### Lists
 
