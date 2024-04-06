@@ -2,10 +2,11 @@
   "extends": [
     "eslint:recommended",
     "next/core-web-vitals",
+    "plugin:@typescript-eslint/strict",
     "plugin:import/typescript",
     "plugin:jsx-a11y/recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "plugin:react/recommended"
   ],
   "rules": {
     "import/consistent-type-specifier-style": ["error", "prefer-inline"],

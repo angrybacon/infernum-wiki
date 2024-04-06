@@ -1,4 +1,4 @@
-import { read } from '@korumite/kiwi';
+import { read } from '@korumite/kiwi/server';
 
 import { Markdown } from '@/components/Markdown/Markdown';
 

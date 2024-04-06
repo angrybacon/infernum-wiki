@@ -3,12 +3,15 @@
 import { Box, Divider } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
+import remarkDirective from 'remark-directive';
 
+import { remarkName } from '@/components/Markdown/plugins';
 import {
   Code,
   Heading,
   Image,
   Quote,
+  Spoiler,
 } from '@/components/Markdown/renderers';
 
 const COMPONENTS = {
@@ -25,12 +28,17 @@ const COMPONENTS = {
   pre: ({ children }) => <>{children}</>,
 } as const satisfies Components;
 
+const COMPONENTS_EXTRA = {
+  spoiler: Spoiler,
+} as const;
+
 type Props = { markdown: string };
 
 export const Markdown: FunctionComponent<Props> = ({ markdown }) => (
   <Box
     component={ReactMarkdown}
-    components={COMPONENTS}
+    components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
+    remarkPlugins={[remarkDirective, remarkName]}
     skipHtml
     sx={{ display: 'grid', gap: 4 }}
   >
