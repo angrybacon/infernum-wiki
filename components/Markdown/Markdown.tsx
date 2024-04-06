@@ -4,10 +4,12 @@ import { Box, Divider } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 
-import { Code } from '@/components/Markdown/Code';
-import { Heading } from '@/components/Markdown/Heading';
-import { Image } from '@/components/Markdown/Image';
-import { Quote } from '@/components/Markdown/Quote';
+import {
+  Code,
+  Heading,
+  Image,
+  Quote,
+} from '@/components/Markdown/renderers';
 
 const COMPONENTS = {
   blockquote: Quote,
