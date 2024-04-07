@@ -15,7 +15,7 @@ export const Footer: FunctionComponent<{ sx: SxProps }> = ({ sx }) => (
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >
-    Copyright &copy; 2024 Solium Infernum Wiki contributors. Read the notice
-    about <Link href="/license">licenses and resources</Link>.
+    &copy; 2024 Solium Infernum Wiki contributors. Read the notice about{' '}
+    <Link href="/license">licenses and resources</Link>.
   </Box>
 );

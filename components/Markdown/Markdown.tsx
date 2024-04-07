@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Divider } from '@mui/material';
+import { Box, Divider, Typography } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 import remarkDirective from 'remark-directive';
@@ -32,16 +32,19 @@ const COMPONENTS_EXTRA = {
   spoiler: Spoiler,
 } as const;
 
-type Props = { markdown: string };
+type Props = { markdown: string; title?: string };
 
-export const Markdown: FunctionComponent<Props> = ({ markdown }) => (
-  <Box
-    component={ReactMarkdown}
-    components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
-    remarkPlugins={[remarkDirective, remarkName]}
-    skipHtml
-    sx={{ display: 'grid', gap: 4 }}
-  >
-    {markdown}
-  </Box>
+export const Markdown: FunctionComponent<Props> = ({ markdown, title }) => (
+  <>
+    {title && <Typography variant="h1">{title}</Typography>}
+    <Box
+      component={ReactMarkdown}
+      components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
+      remarkPlugins={[remarkDirective, remarkName]}
+      skipHtml
+      sx={{ display: 'grid', gap: 4 }}
+    >
+      {markdown}
+    </Box>
+  </>
 );

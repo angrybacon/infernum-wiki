@@ -15,8 +15,8 @@ dependencies:
     specifier: 11.11.0
     version: 11.11.0(@emotion/react@11.11.4)(@types/react@18.2.69)(react@18.2.0)
   '@korumite/kiwi':
-    specifier: 1.5.4
-    version: 1.5.4
+    specifier: 1.6.0
+    version: 1.6.0
   '@mdi/js':
     specifier: 7.4.47
     version: 7.4.47
@@ -581,8 +581,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@korumite/kiwi@1.5.4:
-    resolution: {integrity: sha512-Jrm9zqjWV7kKmA9Hn70tWJ/5B8fiTCGIlxgIDwcYP6WIAm2cOX6xbl9C5r2twdsAMvSZC0CqVMXRF/afoGRO7A==}
+  /@korumite/kiwi@1.6.0:
+    resolution: {integrity: sha512-WI2iZUQxajGOl5lL/dqTmr2lH8AwaLMA/S1lGYiutRdYVvpFC7z/75cJeERKNInGCX0zypvqrhAnXOgs40W5dA==}
     dependencies:
       gray-matter: 4.0.3
     dev: false
