@@ -4,6 +4,7 @@ import { Box, Divider, Typography } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 import remarkDirective from 'remark-directive';
+import remarkGfm from 'remark-gfm';
 
 import { remarkName } from '@/components/Markdown/plugins';
 import {
@@ -13,6 +14,11 @@ import {
   Link,
   Quote,
   Spoiler,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
 } from '@/components/Markdown/renderers';
 
 const COMPONENTS = {
@@ -28,6 +34,12 @@ const COMPONENTS = {
   hr: () => <Divider />,
   img: Image,
   pre: ({ children }) => <>{children}</>,
+  table: Table,
+  tbody: TableBody,
+  td: TableCell,
+  th: TableCell,
+  thead: TableHead,
+  tr: TableRow,
 } as const satisfies Components;
 
 const COMPONENTS_EXTRA = {
@@ -42,7 +54,7 @@ export const Markdown: FunctionComponent<Props> = ({ markdown, title }) => (
     <Box
       component={ReactMarkdown}
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
-      remarkPlugins={[remarkDirective, remarkName]}
+      remarkPlugins={[remarkDirective, remarkGfm, remarkName]}
       skipHtml
       sx={{ display: 'grid', gap: 4 }}
     >

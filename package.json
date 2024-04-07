@@ -18,11 +18,11 @@
   "dependencies": {
     "@emotion/cache": "11.11.0",
     "@emotion/react": "11.11.4",
-    "@emotion/styled": "11.11.0",
+    "@emotion/styled": "11.11.5",
     "@korumite/kiwi": "1.6.0",
     "@mdi/js": "7.4.47",
     "@mdi/react": "1.6.1",
-    "@mui/material": "5.15.14",
+    "@mui/material": "5.15.15",
     "@mui/material-nextjs": "5.15.11",
     "next": "14.1.4",
     "react": "18.2.0",
@@ -30,13 +30,14 @@
     "react-markdown": "9.0.1",
     "react-syntax-highlighter": "15.5.0",
     "remark-directive": "3.0.0",
+    "remark-gfm": "4.0.0",
     "unist-util-visit": "5.0.0"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.2.1",
-    "@types/node": "20.11.30",
-    "@types/react": "18.2.69",
-    "@types/react-dom": "18.2.22",
+    "@types/node": "20.12.5",
+    "@types/react": "18.2.74",
+    "@types/react-dom": "18.2.24",
     "@types/react-syntax-highlighter": "15.5.11",
     "@types/unist": "3.0.2",
     "eslint": "8.57.0",
@@ -45,11 +46,11 @@
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-react": "7.34.1",
     "eslint-plugin-react-hooks": "4.6.0",
-    "knip": "5.4.0",
+    "knip": "5.9.0",
     "mdast-util-directive": "3.0.0",
     "prettier": "3.2.5",
-    "typescript": "5.4.3",
-    "typescript-eslint": "7.4.0",
+    "typescript": "5.4.4",
+    "typescript-eslint": "7.5.0",
     "unified": "11.0.4"
   }
 }

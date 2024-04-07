@@ -4,3 +4,4 @@ export * from './Image';
 export * from './Link';
 export * from './Quote';
 export * from './Spoiler';
+export * from './Table';
