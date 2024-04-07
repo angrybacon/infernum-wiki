@@ -10,11 +10,13 @@ import {
   Code,
   Heading,
   Image,
+  Link,
   Quote,
   Spoiler,
 } from '@/components/Markdown/renderers';
 
 const COMPONENTS = {
+  a: Link,
   blockquote: Quote,
   code: Code,
   h1: Heading,
