@@ -1,44 +1,54 @@
 'use client';
 
+import { type Menu } from '@korumite/kiwi/server';
 import {
   Box,
+  Collapse,
   Divider,
   List,
-  ListItem,
   ListItemButton,
   ListItemText,
   Drawer as MuiDrawer,
   Toolbar,
 } from '@mui/material';
-import { useContext, type FunctionComponent } from 'react';
+import NextLink from 'next/link';
+import { Fragment, useContext, useState, type FunctionComponent } from 'react';
 
 import { DrawerContext } from '@/contexts/DrawerContext';
 
 const WIDTH = 240;
 
-const MENU: string[] = [
-  'Core',
-  'Ancillary Mechanics',
-  'Assets Explanation',
-  'Asset Database',
-  'Appendices',
-  'Articles',
-];
+type Props = { menu: Menu };
 
-export const Drawer: FunctionComponent = () => {
+export const Drawer: FunctionComponent<Props> = ({ menu }) => {
   const { isOpen, onClose } = useContext(DrawerContext);
+  const [menuEntries, setMenuEntries] = useState<Record<string, boolean>>({});
+
+  const handleClick = (chapter: string) => () =>
+    setMenuEntries({ ...menuEntries, [chapter]: !menuEntries[chapter] });
 
   const drawer = (
     <>
       <Toolbar role="presentation" />
       <Divider />
-      <List>
-        {MENU.map((entry) => (
-          <ListItem disablePadding key={entry}>
-            <ListItemButton>
-              <ListItemText primary={entry} />
+      <List component="nav" sx={{ textTransform: 'capitalize' }}>
+        {menu.map(([chapter, entries]) => (
+          <Fragment key={chapter}>
+            <ListItemButton onClick={handleClick(chapter)}>
+              <ListItemText primary={chapter.replace('-', ' ')} />+
             </ListItemButton>
-          </ListItem>
+            <Collapse in={menuEntries[chapter]}>
+              <Divider />
+              <List component="div" dense>
+                {entries.map(({ label, path }) => (
+                  <ListItemButton component={NextLink} href={path} key={label}>
+                    <ListItemText primary={label} />
+                  </ListItemButton>
+                ))}
+              </List>
+              <Divider />
+            </Collapse>
+          </Fragment>
         ))}
       </List>
     </>
