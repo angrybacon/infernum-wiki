@@ -1,7 +1,6 @@
 ---
 authors: ShuSh, Doishy
 banner: [ ]
-order: 0
 title: Promotions
 ---
 

@@ -1,7 +1,6 @@
 ---
 authors: Doishy, ShuSh
 banner: []
-order: 0
 title: Purchasing
 ---
 

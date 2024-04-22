@@ -1,7 +1,6 @@
 ---
 authors: Doishy, ShuSh
 banner: [Infernal Affliction]
-order: 0
 title: Rituals
 ---
 

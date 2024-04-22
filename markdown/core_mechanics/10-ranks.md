@@ -1,7 +1,6 @@
 ---
 authors: ShuSh, Doishy
 banner: [Elocution]
-order: 0
 title: Infernal Ranks
 ---
 
