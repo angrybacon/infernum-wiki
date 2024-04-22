@@ -12,6 +12,7 @@
     "noEmit": true,
     "noUncheckedIndexedAccess": true,
     "paths": {
+      "@/app/*": ["app/*"],
       "@/components/*": ["components/*"],
       "@/contexts/*": ["contexts/*"]
     },

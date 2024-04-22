@@ -7,6 +7,8 @@ import { DrawerAndHeader } from '@/components/DrawerAndHeader';
 import { Footer } from '@/components/Footer';
 import { Theme } from '@/components/Theme';
 
+export const dynamicParams = false;
+
 export const metadata: Metadata = {
   description: 'The fan-made Solium Infernum Wiki',
   title: 'Solium Infernum Wiki',

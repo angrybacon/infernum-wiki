@@ -9,6 +9,10 @@
     "plugin:react/recommended"
   ],
   "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "^_" }
+    ],
     "import/consistent-type-specifier-style": ["error", "prefer-inline"],
     "import/order": "off",
     "react/prop-types": "off",
