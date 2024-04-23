@@ -3,7 +3,6 @@ authors: Doishy, ShuSh
 title: Purchasing
 ---
 
-
 ## Table of Contents
 
 ## What is the Bazaar?

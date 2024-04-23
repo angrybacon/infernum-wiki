@@ -10,7 +10,9 @@
     "dev": "next dev",
     "lint": "pnpm run '/^lint:.+/'",
     "lint:code": "eslint .",
-    "lint:format": "prettier --check --log-level warn app/",
+    "lint:format": "pnpm run '/^lint:format:.+/'",
+    "lint:format:code": "prettier --check --log-level warn app/ components/ contexts/",
+    "lint:format:wiki": "prettier --check --log-level warn markdown/",
     "lint:prune": "knip",
     "lint:typings": "tsc",
     "start": "next start"

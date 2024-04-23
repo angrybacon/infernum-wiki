@@ -28,7 +28,7 @@ a truly harrowing scheme-in-your-sleep experience.
 
 ## What is Codex Infernum?
 
-Codex Infernum is a fan-project to help present an accurate description of the 
+Codex Infernum is a fan-project to help present an accurate description of the
 game's core mechanics and features to help players' understanding on how they
 work, and thus present them with a more enjoyable experience as a result. Each
 section contains a set of chapters that fit under that section. This is designed
@@ -43,8 +43,8 @@ Explanations and examples of the key gameplay mechanics
 
 ### Assets
 
-Explanations and examples of the different units (Legions), items 
-(Artifacts/Relics), characters (Archfiends) and environments (Cantons) the game 
+Explanations and examples of the different units (Legions), items
+(Artifacts/Relics), characters (Archfiends) and environments (Cantons) the game
 contains.
 
 ### Asset List

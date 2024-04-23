@@ -8,8 +8,8 @@ title: Diplomacy
 
 ## What is Diplomacy?
 
-As per the in-game Encyclopaedia: Diplomacy is the name we give to the threats, 
-offers and outright insults that fly through Hell's fetid air like carrion 
+As per the in-game Encyclopaedia: Diplomacy is the name we give to the threats,
+offers and outright insults that fly through Hell's fetid air like carrion
 birds.
 
 Diplomacy is a way to control the flow of the game and provides a number of
@@ -24,7 +24,7 @@ Diplomacy is conducted within the Diplomacy menu on the top of the screen.
  - Image of Diplo Menu - 
 
 It displays all Archfiends in the game and their current diplomatic status to
-one another. All diplomatic statusses are public information. 
+one another. All diplomatic statusses are public information.
 
 To initiate a diplomatic action with another Archfiend, select the Conduct
 Diplomacy icon next to their portrait.
@@ -36,9 +36,9 @@ the chosen Archfiend. Known information such as Prestige, Dark Art, Relics, Rank
 and Powers of that Archfiend are displayed on the top right.
 
 At the bottom of the menu, you will see each diplomatic action you can perform.
-Select the action you want and click it to perform the action. Some actions are 
+Select the action you want and click it to perform the action. Some actions are
 only available at certain Archfiend Ranks. Some diplomatic actions may be
-unavailable if you have insufficient Prestige to pay the cost of performing it, 
+unavailable if you have insufficient Prestige to pay the cost of performing it,
 or if they are on cooldown.
 
 All diplomatic actions, except for sending a message, cost an order slot to
@@ -47,14 +47,13 @@ perform.
 You cannot perform a diplomatic action, except for sending a message, to an
 Archfiend with whom you already have some form of active diplomacy with.
 
-
 ### What is the prioritisation of Diplomatic Actions?
 
-Except for messages, only one diplomatic action may occur between any two given 
+Except for messages, only one diplomatic action may occur between any two given
 Archfiends at any one time. If two Archfiends both initiate a diplomatic action,
-except for sending a message, against one another in the same turn, then there 
-is a hierarchy of prioritisation which determines which diplomatic action 
-succeeds. 
+except for sending a message, against one another in the same turn, then there
+is a hierarchy of prioritisation which determines which diplomatic action
+succeeds.
 
  1. Archfiend Rank
 
@@ -86,7 +85,7 @@ Another example:
 
 Andromalius, a Dukex and Murmur, a Dukex wish to both perform an Insult against
 one another in the same turn. Andromalius is the Regent but puts their Insult
-diplomatic action in their second order slot. Murmur puts their Insult in their 
+diplomatic action in their second order slot. Murmur puts their Insult in their
 first order slot. Andromalius, to their surprise, finds themselves insulted!
 
 The Archfiend whose action does not succeed will have their order slot wasted
@@ -94,32 +93,32 @@ and a message informing them of the failure.
 
 ## List of Diplomatic Actions
 
-[Praetor Duels]() and [Vendettas]() are covered in greater detail in other 
+[Praetor Duels]() and [Vendettas]() are covered in greater detail in other
 chapters.
 
 ### Demand
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :       8      : |
-|  Marquis | :       7      : |
-|  Duke    | :       6      : |
-|  Prince  | :       5      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       8        |
+| Marquis |       7        |
+| Duke    |       6        |
+| Prince  |       5        |
 
 You demand an amount of tribute tokens from the target Archfiend. The number
-of tribute tokens you can demand is determined by your Archfiend Rank. Barons 
+of tribute tokens you can demand is determined by your Archfiend Rank. Barons
 can demand 3 tokens, Marquis up to 4, Dukes up to 5 and Princes up to 6.
 
 If the Demand is accepted, you will receive the prestige wager back, along with
 the tokens selected by the targeted Archfiend. They must send the full
 amount of tokens demanded, no matter what value those tokens are. If they are
-unable to provide enough tribute tokens, they must reject the demand. 
+unable to provide enough tribute tokens, they must reject the demand.
 
-If the demand is rejected, the targeted Archfiend will receive your prestige 
-wager and you will have to select an option of either Claiming a Vendetta 
-against the target Archfiend, Challenging them to a Praetor Duel or Backing 
+If the demand is rejected, the targeted Archfiend will receive your prestige
+wager and you will have to select an option of either Claiming a Vendetta
+against the target Archfiend, Challenging them to a Praetor Duel or Backing
 Down. Backing Down means that no further steps occur as part of this action.
 
 The full timeline of events for demand occurs as such:
@@ -136,24 +135,24 @@ this cooldown (following normal limitations).
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Duke    | :       8      : |
-|  Prince  | :       7      : |
+| Rank   | Prestige Wager |
+| ------ | :------------: |
+| Duke   |       8        |
+| Prince |       7        |
 
 Extort is only available to Archfiends of Duke Rank or greater.
-Extort is very similar to Demand however instead of tribute, you demand your 
+Extort is very similar to Demand however instead of tribute, you demand your
 choice of either a single artifact or single praetor from the target Archfiend.
 
-If the Extortion is accepted, you will receive the prestige wager and the 
+If the Extortion is accepted, you will receive the prestige wager and the
 targeted Archfiend selects one artifact/praetor (depending on your selection)
 for you to receive. If they are unable to provide the asset selected (eg: they
-do not have an artifact/praetor as required) then they have to reject the 
-extortion. 
+do not have an artifact/praetor as required) then they have to reject the
+extortion.
 
-If the extortion is rejected, the targeted Archfiend will receive your prestige 
-wager and you will have to select an option of either Claiming a Vendetta 
-against the target Archfiend, Challenging them to a Praetor Duel or Backing 
+If the extortion is rejected, the targeted Archfiend will receive your prestige
+wager and you will have to select an option of either Claiming a Vendetta
+against the target Archfiend, Challenging them to a Praetor Duel or Backing
 Down. Backing Down means that no further steps occur as part of this action.
 
 The full timeline of events for extortion occurs as such:
@@ -162,26 +161,25 @@ The full timeline of events for extortion occurs as such:
 
 Extortions have a cooldown of 3 turns starting from the turn the extortion was
 made which is shared with the Demand action. Neither of these diplomatic actions
-can be made to the Archfiend you targeted with them until this cooldown has 
-ended. Other diplomatic actions can still be made against the target Archfiend 
+can be made to the Archfiend you targeted with them until this cooldown has
+ended. Other diplomatic actions can still be made against the target Archfiend
 during this cooldown (following normal limitations).
 
 ### Insult
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :       5      : |
-|  Marquis | :       6      : |
-|  Duke    | :       7      : |
-|  Prince  | :       8      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       5        |
+| Marquis |       6        |
+| Duke    |       7        |
+| Prince  |       8        |
 
-
-You send an Insult to a targeted Archfiend. 
+You send an Insult to a targeted Archfiend.
 
 If the Insult is accepted, the target loses prestige and you gain prestige equal
-to twice what you wagered. 
+to twice what you wagered.
 
 If the Insult is rejected, the target must either declare a Vendetta against you
 or challenge you to a Praetor Duel.
@@ -191,29 +189,29 @@ The full timeline of events for insults occurs as such:
  - Insult Timeline - 
 
 Insults have a cooldown of 3 turns starting from the turn the Insult was made
-which is shared with the Humiliate action. Neither of these diplomatic actions 
-can be made to the Archfiend you targeted with them until this cooldown has 
-ended. Other diplomatic actions can still be made against the target Archfiend 
+which is shared with the Humiliate action. Neither of these diplomatic actions
+can be made to the Archfiend you targeted with them until this cooldown has
+ended. Other diplomatic actions can still be made against the target Archfiend
 during this cooldown (following normal limitations).
 
 ### Humiliate
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Prince  | :      10      : |
+| Rank   | Prestige Wager |
+| ------ | :------------: |
+| Prince |       10       |
 
 Humilate is only available to Archfiends of Prince Rank.
 
-You send a Humiliation to a targeted Archfiend. You must pre-select the 
-consequences as to what happens if they reject it when sending. You will have to 
-select an option of either Claiming a Vendetta against the target Archfiend or 
+You send a Humiliation to a targeted Archfiend. You must pre-select the
+consequences as to what happens if they reject it when sending. You will have to
+select an option of either Claiming a Vendetta against the target Archfiend or
 Challenging them to a Praetor Duel and pre-determined the terms of the Vendetta
 or the Praetor you wish to Duel with.
 
-If the Humiliation is accepted, the target loses prestige and you gain prestige 
-equal to twice what you wagered. 
+If the Humiliation is accepted, the target loses prestige and you gain prestige
+equal to twice what you wagered.
 
 If the Humiliation is rejected, the chosen consequences you selected immediately
 take effect.
@@ -222,9 +220,9 @@ The full timeline of events for humiliations occurs as such:
 
  - Humiliate Timeline - 
 
-Humiliations have a cooldown of 3 turns starting from the turn the Humiliation 
-was made which is shared with the Insult action. Neither of these diplomatic 
-actions can be made to the Archfiend you targeted with them until this cooldown 
+Humiliations have a cooldown of 3 turns starting from the turn the Humiliation
+was made which is shared with the Insult action. Neither of these diplomatic
+actions can be made to the Archfiend you targeted with them until this cooldown
 has ended. Other diplomatic actions can still be made against the target
 Archfiend during this cooldown (following normal limitations).
 
@@ -232,18 +230,18 @@ Archfiend during this cooldown (following normal limitations).
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :       10     : |
-|  Marquis | :       9      : |
-|  Duke    | :       8      : |
-|  Prince  | :       7      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       10       |
+| Marquis |       9        |
+| Duke    |       8        |
+| Prince  |       7        |
 
 Declare Blood Feud can usually only be performed on a target Archfiend who you
 have had 3 successful vendettas against.
 
-You declare a blood feud with the target Archfiend. Once declared, the Blood 
-Feud continues until either party is eliminated (home stronghold lost) or 
+You declare a blood feud with the target Archfiend. Once declared, the Blood
+Feud continues until either party is eliminated (home stronghold lost) or
 becomes a Blood Vassal.
 
 The full timeline of events for Declare Blood Feud occurs as such:
@@ -254,20 +252,20 @@ The full timeline of events for Declare Blood Feud occurs as such:
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :       6      : |
-|  Marquis | :       5      : |
-|  Duke    | :       4      : |
-|  Prince  | :       3      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       6        |
+| Marquis |       5        |
+| Duke    |       4        |
+| Prince  |       3        |
 
-Assert Weakness can only usually be performed on a target Archfiend who has 
+Assert Weakness can only usually be performed on a target Archfiend who has
 accepted 3 consecutive Demand/Extort actions from you in a row. If they reject
 any or if you perform the Assert Weakness action the "counter" resets to 0.
 
 You Assert Weakness against a target Archfiend. You must select the option of
 either starting a Vendetta against the target Archfiend or Challenging them to a
-Praetor Duel and pre-determine the terms of the Vendetta or the Praetor you 
+Praetor Duel and pre-determine the terms of the Vendetta or the Praetor you
 wish to Duel with.
 
 The full timeline of events for Assert Weakness occurs as such:
@@ -278,21 +276,21 @@ The full timeline of events for Assert Weakness occurs as such:
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :       0      : |
-|  Marquis | :       0      : |
-|  Duke    | :       0      : |
-|  Prince  | :       0      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       0        |
+| Marquis |       0        |
+| Duke    |       0        |
+| Prince  |       0        |
 
 Vassalage is a state whereby one Archfiend submits themselves under the rule of
 another. As a Vassal you cannot initiate any diplomatic actions yourself (other
 than sending messages) to other Archfiends. Instead you are tied to the
 consequences of those your Blood Lord initiates. You you freely traverse through
-their cantons with your Legions and any actions done by you, or against you, 
-will count towards vendetta victory conditions. 
+their cantons with your Legions and any actions done by you, or against you,
+will count towards vendetta victory conditions.
 
-You request to become the Vassal of the target Archfiend. 
+You request to become the Vassal of the target Archfiend.
 
 If the target rejects your request, nothing happens.
 
@@ -301,25 +299,25 @@ your Blood Lord. Any diplomatic actions you were currently part of immediately
 end and the prestige wager of those actions returned to those who placed them.
 All your current prestige is then given to your Blood Lord. At the end of the
 game, in the final Trial for the Throne, half of any prestige you have is given
-to your Blood Lord in the final turn. 
+to your Blood Lord in the final turn.
 
 You will remain the vassal of your Blood Lord until one of these conditions is
 met:
 
- - You, or your Blood Lord are excommunicated.
- - Your Blood Lord is eliminated.
- - Your Blood Lord accepts an Offer to be Blood Lord from another player.
+- You, or your Blood Lord are excommunicated.
+- Your Blood Lord is eliminated.
+- Your Blood Lord accepts an Offer to be Blood Lord from another player.
 
 ### Offer to Be Blood Lord
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :       0      : |
-|  Marquis | :       0      : |
-|  Duke    | :       0      : |
-|  Prince  | :       0      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       0        |
+| Marquis |       0        |
+| Duke    |       0        |
+| Prince  |       0        |
 
 You request for the target to become your Vassal.
 
@@ -328,21 +326,20 @@ If the target rejects your request, nothing happens.
 If the target accepts your request, they become your Vassal, and you become
 their Blood Lord. Any diplomatic actions they were currently part of immediately
 end and the prestige wager of those actions returned to those who placed them.
-All their current prestige is then given to you. At the end of the game, in the 
-final Trial for the Throne, half of any prestige they have is given to you in 
-the final turn. 
-
+All their current prestige is then given to you. At the end of the game, in the
+final Trial for the Throne, half of any prestige they have is given to you in
+the final turn.
 
 ### Send Emmissary
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :       4      : |
-|  Marquis | :       3      : |
-|  Duke    | :       2      : |
-|  Prince  | :       1      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       4        |
+| Marquis |       3        |
+| Duke    |       2        |
+| Prince  |       1        |
 
 Send Emissary is a diplomatic action that allows you to offer tribute tokens in
 return for a diplomatic armstice between you and the target Archfiend. During
@@ -351,27 +348,28 @@ one another.
 
 You must send at least one tribute token.
 
-The length of the Armstice scales with the amount of tribute gifted. 
+The length of the Armstice scales with the amount of tribute gifted.
 The Rank of the Archfiend sending the emmissary increases the number of turns
-the Armstice lasts.   
+the Armstice lasts.
+
 There is an upper limit of 11 turns the Armstice can last.
 
 The rank base for number of turns (based of sending a single tribute token of
 1 value:
 
-|  Rank    |  Armstice Base   |
-| -------- | :--------------: |
-|  Baron   | :       1      : |
-|  Marquis | :       1      : |
-|  Duke    | :       2      : |
-|  Prince  | :       3      : |
+| Rank    | Armstice Base |
+| ------- | :-----------: |
+| Baron   |       1       |
+| Marquis |       1       |
+| Duke    |       2       |
+| Prince  |       3       |
 
 Currently the ratio of tribute offerred compared to length of Armstice is not
 known.
 
 If the Emmissary is accepted, you get your prestige wager back, the target
-Archfiend receives the tribute tokens you selected and you and the target 
-Archfiend enter an Armstice. 
+Archfiend receives the tribute tokens you selected and you and the target
+Archfiend enter an Armstice.
 
 If the Emmissary is rejected, the tribute tokens are returned to you and the
 targets gets your prestige wager. No further actions occur.
@@ -380,7 +378,7 @@ If the Emmissary is executed, the tribute tokens are returned to you and the
 targets gets your prestige wager and you will have to select an option of either
 Claiming a Vendetta against the target Archfiend, Challenging them to a Praetor
 Duel or Backing Down. Backing Down means that no further steps occur as part of
-this action. 
+this action.
 
 The full timeline of events for Send Emmissary occurs as such:
 
@@ -390,19 +388,19 @@ The full timeline of events for Send Emmissary occurs as such:
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :       5      : |
-|  Marquis | :       5      : |
-|  Duke    | :       5      : |
-|  Prince  | :       5      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       5        |
+| Marquis |       5        |
+| Duke    |       5        |
+| Prince  |       5        |
 
 Chains of Avarice is a Dark Art unique to the Archfiend Mammon. It is a
-diplomatic action that may be used against another Archfiend. 
+diplomatic action that may be used against another Archfiend.
 
-If accepted, the target draws and keeps an additional tribute token every time 
-they perform a Seek Tribute action. Any tokens not kept by an Archfiend 
-bound by Chains of Avarice is given to Mammon, consolidated as a single 
+If accepted, the target draws and keeps an additional tribute token every time
+they perform a Seek Tribute action. Any tokens not kept by an Archfiend
+bound by Chains of Avarice is given to Mammon, consolidated as a single
 token. The agreement lasts 5 turns.
 
 If rejected, nothing happens and the diplomacy is ended.
@@ -420,12 +418,12 @@ The full timeline of events for Chains of Avarice occurs as such:
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :      15      : |
-|  Marquis | :      15      : |
-|  Duke    | :      15      : |
-|  Prince  | :      15      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       15       |
+| Marquis |       15       |
+| Duke    |       15       |
+| Prince  |       15       |
 
 Draconic Razzia is a Dark Art unique to the Archfiend Astaroth. It is a
 diplomatic action that allows a single turn of combat, as if a Vendetta was
@@ -439,7 +437,7 @@ each other). Unlike a vendetta, there is no direct objective to complete and
 the Razzia will end after one turn. That means it does not count towards a
 Blood Feud.
 
-You may only send a Draconic Razzia to one target at a time and it has a 
+You may only send a Draconic Razzia to one target at a time and it has a
 cooldown of 5 turns before it may be used again against any target.
 
 The full timeline of events for Draconic Razzia occurs as such:
@@ -450,12 +448,12 @@ The full timeline of events for Draconic Razzia occurs as such:
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :      10      : |
-|  Marquis | :      10      : |
-|  Duke    | :      10      : |
-|  Prince  | :      10      : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       10       |
+| Marquis |       10       |
+| Duke    |       10       |
+| Prince  |       10       |
 
 Lure of Excess is a Dark Art unique to the Archfiend Erzsebet. It is a
 diplomatic action that creates a 5 turn Armstice where neither you, or your
@@ -466,12 +464,12 @@ by your target.
 
 If the Lure of Excess is accepted, you have your prestige wager returned to you,
 your legions may enter the targets territory for 5 turns, your legions heal from
-the target's Stronghold and Places of Power. 
+the target's Stronghold and Places of Power.
 
 If the Lure of Excess is rejected, you lose your prestige wager and the target
 loses 10 prestige. No other actions occur.
 
-You may only send a Lure of Excess to one target at a time and it has a 
+You may only send a Lure of Excess to one target at a time and it has a
 cooldown of 5 turns before it may be used again against any target.
 
 The full timeline of events for Lure of Excess occurs as such:
@@ -482,12 +480,12 @@ The full timeline of events for Lure of Excess occurs as such:
 
 Prestige Wager:
 
-|  Rank    |  Prestige Wager  |
-| -------- | :--------------: |
-|  Baron   | :      5       : |
-|  Marquis | :      5       : |
-|  Duke    | :      5       : |
-|  Prince  | :      5       : |
+| Rank    | Prestige Wager |
+| ------- | :------------: |
+| Baron   |       5        |
+| Marquis |       5        |
+| Duke    |       5        |
+| Prince  |       5        |
 
 Vile Calumny is a Dark Art unique to the Archfiend Belial. It is a
 diplomatic action that frames one Archfiend for insulting the target Archfiend.
@@ -498,23 +496,23 @@ becomes a diplomatic action between the target and the Archfiend being framed.
 You cannot frame yourself.
 
 Because of how Vile Calumny works, you can in fact "block/cancel" both the
-target Archfiend's diplomatic actions towards you in the same turn and the 
+target Archfiend's diplomatic actions towards you in the same turn and the
 target Archfiend's/framed Archfiends diplomatic actions towards each other in
 the same turn. This seems to ignore the usual priority based on Rank/turn order.
 
 After the initial turn of sending the Vile Calumny, you may perform other
 diplomatic actions against your target as normal.
 
-If the false insult is accepted, your prestige wager is returned, the framed 
-Archfiend receives prestige equal to the prestige wager and the target and 
-framed Archfiend cannot use Insult or Humiliate diplomatic actions against one 
+If the false insult is accepted, your prestige wager is returned, the framed
+Archfiend receives prestige equal to the prestige wager and the target and
+framed Archfiend cannot use Insult or Humiliate diplomatic actions against one
 another for 3 turns.
 
 If the false insult is rejected, the target gains prestige equal to the prestige
 wager and must declare a Praetor Duel or declare a Vendetta against the framed
 Archfiend.
 
-You may only send a Vile Calumny to one target at a time and it has a 
+You may only send a Vile Calumny to one target at a time and it has a
 cooldown of 5 turns before it may be used again against any target.
 
 The full timeline of events for Vile Calumny occurs as such:
@@ -524,9 +522,9 @@ The full timeline of events for Vile Calumny occurs as such:
 ### Send Message
 
 Send Message is a special diplomatic action that doesn't have a prestige wager
-and does not use up an order slot. You can send a single message to each (player 
-controlled) Archfiend each turn. Messages have a character limit of 666 
-characters. 
+and does not use up an order slot. You can send a single message to each (player
+controlled) Archfiend each turn. Messages have a character limit of 666
+characters.
 
 Messages are not shown on the diplomacy screen and you cannot see any messages
 between other rival Archfiends in the game.
