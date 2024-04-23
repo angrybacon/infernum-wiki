@@ -1,6 +1,6 @@
 ---
 authors: Doishy, ShuSh
-banner: [Infernal Negotiations]
+banner: Infernal Negotiations
 title: Diplomacy
 ---
 

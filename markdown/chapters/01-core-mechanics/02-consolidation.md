@@ -1,6 +1,6 @@
 ---
 authors: Doishy, ShuSh
-banner: [Demand of Supplication]
+banner: Demand of Supplication
 title: Consolidation
 ---
 

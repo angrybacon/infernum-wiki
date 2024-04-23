@@ -1,6 +1,5 @@
 ---
 authors: Doishy, ShuSh
-banner: [ ]
 title: Orders and Regency
 ---
 

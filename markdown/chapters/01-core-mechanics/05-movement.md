@@ -1,6 +1,5 @@
 ---
 authors: Doishy, ShuSh
-banner: []
 title: Movement
 ---
 

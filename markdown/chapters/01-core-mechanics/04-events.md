@@ -1,6 +1,5 @@
 ---
 authors: ShuSh, Doishy
-banner: [ ]
 title: Events
 ---
 
