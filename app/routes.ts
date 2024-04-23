@@ -9,6 +9,7 @@ const getPaths = (paths: string[][]) =>
       if (realChapter && realSlug) {
         const [chapter, slug] = [trim(realChapter), trim(realSlug)];
         accumulator[chapter] = accumulator[chapter] || {};
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         accumulator[chapter]![slug] = `chapters/${realChapter}/${realSlug}.md`;
       }
       return accumulator;
