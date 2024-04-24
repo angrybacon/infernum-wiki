@@ -39,7 +39,14 @@ export const Drawer: FunctionComponent<Props> = ({ menu }) => {
             </ListItemButton>
             <Collapse in={menuEntries[chapter]}>
               <Divider />
-              <List component="div" dense>
+              <List
+                component="div"
+                dense
+                sx={({ palette }) => ({
+                  backgroundColor:
+                    palette.mode === 'dark' ? 'common.black' : 'grey.50',
+                })}
+              >
                 {entries.map(({ label, path }) => (
                   <ListItemButton component={NextLink} href={path} key={label}>
                     <ListItemText primary={label} />

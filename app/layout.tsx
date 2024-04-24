@@ -44,7 +44,7 @@ export default function Layout({ children }: PropsWithChildren) {
             >
               <Toolbar role="presentation" />
               {children}
-              <Footer sx={{ mt: 'auto', pb: 2 }} />
+              <Footer sx={{ mt: 'auto', pb: { xs: 2, sm: 4 } }} />
             </Container>
           </AppRouterCacheProvider>
         </Box>
