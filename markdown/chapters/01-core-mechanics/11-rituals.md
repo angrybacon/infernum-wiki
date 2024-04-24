@@ -11,9 +11,8 @@ Chamber that can be found on the upper central bar.
 
 - Screenshot of Ritual Chamber Icon -
 
-Rituals are obtained from either Archfiends as part of their [Dark Arts](Link to
-Dark Arts Page), levelling up [Powers](Link to Powers Page) or [Artifacts of
-Sorcery](Link to Artifacts Page).
+Rituals are obtained from either Archfiends as part of their [Dark Arts](),
+levelling up [Powers]() or [Artifacts of Sorcery]().
 
 ## Performing a Ritual
 
@@ -47,7 +46,7 @@ Once all applicable targets have been selected you will then need to pay any
 
 - Screenshot of pay costs -
 
-Performing a Ritual requires an [Order Slot](Link to Order Slot Page).
+Performing a Ritual requires an [Order Slot]().
 
 ## Continuous Rituals
 

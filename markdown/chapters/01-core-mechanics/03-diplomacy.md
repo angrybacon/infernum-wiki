@@ -11,9 +11,9 @@ offers and outright insults that fly through Hell's fetid air like carrion
 birds.
 
 Diplomacy is a way to control the flow of the game and provides a number of
-options for initiating combat in the form of [Vendettas](Link to Ven Page) and
-ways to either increase your [Prestige](Link to Prestige)at the expense of your
-opponent's or to offer other diplomatic solutions to dealing with them.
+options for initiating combat in the form of [Vendettas]() and ways to either
+increase your [Prestige]()at the expense of your opponent's or to offer other
+diplomatic solutions to dealing with them.
 
 ## The Diplomacy Menu
 
