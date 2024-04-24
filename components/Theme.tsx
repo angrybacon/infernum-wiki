@@ -21,7 +21,7 @@ export const Theme: FunctionComponent<PropsWithChildren> = ({ children }) => {
           MuiCssBaseline: {
             styleOverrides: {
               html: { fontSize: 18 },
-              'blockquote, p, pre': { margin: 0 },
+              'blockquote, ol, p, pre, ul': { margin: 0 },
             },
           },
         },

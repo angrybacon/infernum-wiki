@@ -62,25 +62,25 @@ not provide support.
 For example: The Children of Belial are entering combat and have the following
 statistics:
 
-Ranged: 6
-Melee: 1
-Infernal: 7
+| Ranged | Melee | Infernal |
+| :----: | :---: | :------: |
+|   6    |   1   |    7     |
 
 They enter into combat and have a friendly Legion, the Iron Maidens supporting
 them. The Iron Maidens have the following statistics:
 
-Ranged: 6
-Melee: 3
-Infernal: 3
+| Ranged | Melee | Infernal |
+| :----: | :---: | :------: |
+|   6    |   3   |    3     |
 
 As a result the Children of Belial receive the following support buffs:
 
-Ranged: +3
-Melee: +1
-Infernal: +1
+| Ranged | Melee | Infernal |
+| :----: | :---: | :------: |
+|   +3   |  +1   |    +1    |
 
 This gives them the following stats in this combat:
 
-Ranged: 9
-Melee: 2
-Infernal: 8
+| Ranged | Melee | Infernal |
+| :----: | :---: | :------: |
+|   9    |   2   |    8     |

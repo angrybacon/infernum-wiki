@@ -142,6 +142,8 @@ quam.
 
 ### Tables
 
+#### Default Alignement
+
 ```md
 | One                         | Two              | Three                     |
 | --------------------------- | ---------------- | ------------------------- |
@@ -156,4 +158,26 @@ quam.
 | Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
 | Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
 | Quisque libero elit         | Aliquet sem vel  | Quisque commodo urna      |
+| Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
+
+#### Custom Alignement
+
+<!-- prettier-ignore-start -->
+
+```md
+| One                         | Two              | Three                     |
+| :-------------------------- | :--------------: | ------------------------: |
+| Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
+| Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
+| Quisque libero elit         | Aliquet sem vel  | Quisque commodo urna      |
+| Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
+```
+
+<!-- prettier-ignore-end -->
+
+| One                         |       Two        |                     Three |
+| :-------------------------- | :--------------: | ------------------------: |
+| Morbi consectetur non velit |  Tempor a massa  |       Orci varius natoque |
+| Sed pulvinar sapien in odio |  Cras nec nisl   |    Nascetur ridiculus mus |
+| Quisque libero elit         | Aliquet sem vel  |      Quisque commodo urna |
 | Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |

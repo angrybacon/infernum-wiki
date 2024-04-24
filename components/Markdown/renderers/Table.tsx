@@ -24,9 +24,20 @@ export const TableBody: Components['tbody'] = ({ children }) => (
   <MuiTableBody>{children}</MuiTableBody>
 );
 
-export const TableCell: Components['td'] = ({ children }) => (
-  <MuiTableCell sx={{ borderColor: 'divider' }}>{children}</MuiTableCell>
-);
+const CELL_ALIGN: Record<string, 'left' | 'center' | 'right'> = {
+  left: 'left',
+  center: 'center',
+  right: 'right',
+};
+
+export const TableCell: Components['td'] = ({ children, node }) => {
+  const align = CELL_ALIGN[`${node?.properties.align}`];
+  return (
+    <MuiTableCell align={align} sx={{ borderColor: 'divider' }}>
+      {children}
+    </MuiTableCell>
+  );
+};
 
 export const TableHead: Components['thead'] = ({ children }) => (
   <MuiTableHead>{children}</MuiTableHead>
