@@ -3,8 +3,6 @@ authors: Doishy, ShuSh
 title: Purchasing
 ---
 
-## Table of Contents
-
 ## What is the Bazaar?
 
 The Infernal Bazaar offers a variety of Legions, Praetors, Artifacts, and Manuscripts that can be purchased through a match. Each item will have a minimum bid of tribute, though if multiple Archfiends attempt to purchase an item in the same turn, only the highest bid will be deducted and receive the item. All types of tribute are equal for calculating bids. Tied bids are broken first by Rank, and then by priority of the Order that the bid was made. All purchased items will be received after all Orders have resolved in the turn resolution.

@@ -3,8 +3,6 @@ authors: Doishy, ShuSh
 title: Orders and Regency
 ---
 
-## Table of Contents
-
 ## What are Orders / Order Slots?
 
 Almost every action within the game is classified as an Order. To be able to

@@ -4,8 +4,6 @@ banner: Witness the Martyr
 title: Combat
 ---
 
-## Table of Contents
-
 ## What is Combat?
 
 Combat can occur on the map when a legion moves into the same canton as a

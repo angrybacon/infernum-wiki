@@ -4,8 +4,6 @@ banner: Infernal Affliction
 title: Rituals
 ---
 
-## Table of Contents
-
 ## What are Rituals?
 
 Rituals are single-use or continuous powers that are activated from your Ritual

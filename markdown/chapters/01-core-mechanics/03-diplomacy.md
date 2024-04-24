@@ -4,8 +4,6 @@ banner: Infernal Negotiations
 title: Diplomacy
 ---
 
-## Table of Contents
-
 ## What is Diplomacy?
 
 As per the in-game Encyclopaedia: Diplomacy is the name we give to the threats,

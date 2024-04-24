@@ -3,8 +3,6 @@ authors: ShuSh, Doishy
 title: Promotions
 ---
 
-## Table of Contents
-
 ## What are Promotions?
 
 Upon leveling up, or as a result or certain Events, a Legion or Place of Power

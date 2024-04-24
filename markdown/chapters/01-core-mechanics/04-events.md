@@ -3,8 +3,6 @@ authors: ShuSh, Doishy
 title: Events
 ---
 
-## Table of Contents
-
 ## What are Events?
 
 Events are cards which have various powerful effects, some beneficial and some

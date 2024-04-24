@@ -4,8 +4,6 @@ banner: Demand of Supplication
 title: Consolidation
 ---
 
-## Table of Contents
-
 ## What is Consolidation?
 
 Consolidation is the act of combining multiple tribute tokens into a single

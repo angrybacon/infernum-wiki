@@ -4,8 +4,6 @@ banner: Elocution
 title: Infernal Ranks
 ---
 
-## Table of Contents
-
 ## What are Ranks?
 
 There are four Ranks within the Infernal Conclave, ranging from least to

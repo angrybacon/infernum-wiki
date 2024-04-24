@@ -4,8 +4,6 @@ banner: Vanity's Annointed
 title: Praetor Duels
 ---
 
-## Table of Contents
-
 ## What are Praetor Duels?
 
 Duels are an alternative to Vendettas. Instead of resolving conflict on the map

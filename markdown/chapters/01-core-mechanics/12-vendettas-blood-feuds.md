@@ -4,8 +4,6 @@ banner: Infernal Juggernaught
 title: Vendettas and Blood Feuds
 ---
 
-## Table of Contents
-
 ## What is a Vendetta?
 
 A Vendetta is a conditional state of war between two Archfiends. It is the

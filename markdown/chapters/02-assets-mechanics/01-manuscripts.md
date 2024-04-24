@@ -3,8 +3,6 @@ authors: Doishy, ShuSh
 title: Manuscripts
 ---
 
-## Table of Contents
-
 ## What are Manuscripts?
 
 Manuscripts are fragments of texts which may be found through the Seek
