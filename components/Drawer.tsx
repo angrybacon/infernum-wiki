@@ -12,7 +12,14 @@ import {
   Toolbar,
 } from '@mui/material';
 import NextLink from 'next/link';
-import { Fragment, useContext, useState, type FunctionComponent } from 'react';
+import { useParams, usePathname } from 'next/navigation';
+import {
+  Fragment,
+  useContext,
+  useEffect,
+  useState,
+  type FunctionComponent,
+} from 'react';
 
 import { DrawerContext } from '@/contexts/DrawerContext';
 
@@ -22,7 +29,17 @@ type Props = { menu: Menu };
 
 export const Drawer: FunctionComponent<Props> = ({ menu }) => {
   const { isOpen, onClose } = useContext(DrawerContext);
+  const { chapter } = useParams();
+  const pathname = usePathname();
   const [menuEntries, setMenuEntries] = useState<Record<string, boolean>>({});
+
+  useEffect(() => {
+    // TODO This should be done on first render. This likely means we need a
+    //      `DrawerEntry` child component for it.
+    if (chapter && typeof chapter === 'string') {
+      setMenuEntries({ ...menuEntries, [chapter]: true });
+    }
+  }, [chapter]);
 
   const handleClick = (chapter: string) => () =>
     setMenuEntries({ ...menuEntries, [chapter]: !menuEntries[chapter] });
@@ -48,7 +65,12 @@ export const Drawer: FunctionComponent<Props> = ({ menu }) => {
                 })}
               >
                 {entries.map(({ label, path }) => (
-                  <ListItemButton component={NextLink} href={path} key={label}>
+                  <ListItemButton
+                    component={NextLink}
+                    href={path}
+                    key={path}
+                    selected={path === pathname}
+                  >
                     <ListItemText primary={label} />
                   </ListItemButton>
                 ))}
