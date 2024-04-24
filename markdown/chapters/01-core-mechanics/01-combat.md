@@ -25,7 +25,7 @@ with a Ranged value of 5. The Legion with the value of 3 will take 2 damage.
 If additional phases are added by an ability, for example "Ranged Twice", the
 new phase will be added immediately after the existing phase of the same type.
 
-## Changes to Phase Order.
+## Changes to Phase Order
 
 Some things can effect the order in which combat phases are completed. Things
 like Legion abilities, Praetors, Artifacts and Strategems can have the potential
@@ -34,7 +34,7 @@ can change the order that the phases occur. If an ability changes the order of
 phases, all other phases will occur in their default order thereafter.
 
 For example: If a Legion attacks who has the _Melee First_ ability, then combat
-will go Melee -> Ranged -> Infernal.
+will go Melee &rarr; Ranged &rarr; Infernal.
 
 If multiple abilities change the order of phases, only the side with the higher
 level legion will take effect. If both legions are the same level, only the
@@ -47,8 +47,8 @@ and combat immediately ends. Legions who are defeated in battle will be
 destroyed whilst Places of Power that are defeated in battle will be transferred
 to the winner's control, set at one hp. A victorious attack against a legion
 will move the attacker onto their canton and attempt to resolve the rest of the
-movement order, if any. If all phases resolve and neither combatant is
-defeated, the battle is a stalemate, and any movement will be halted.
+movement order, if any. If all phases resolve and neither combatant is defeated,
+the battle is a stalemate, and any movement will be halted.
 
 ## Combat Support
 

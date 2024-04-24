@@ -9,10 +9,10 @@ title: Rituals
 Rituals are single-use or continuous powers that are activated from your Ritual
 Chamber that can be found on the upper central bar.
 
- - Screenshot of Ritual Chamber Icon - 
+- Screenshot of Ritual Chamber Icon -
 
-Rituals are obtained from either Archfiends as part of their [Dark Arts](Link
-to Dark Arts Page), levelling up [Powers](Link to Powers Page) or [Artifacts of
+Rituals are obtained from either Archfiends as part of their [Dark Arts](Link to
+Dark Arts Page), levelling up [Powers](Link to Powers Page) or [Artifacts of
 Sorcery](Link to Artifacts Page).
 
 ## Performing a Ritual
@@ -22,20 +22,20 @@ Ritual slot available by default. Ritual slots are unlocked by increasing your
 Prophecy power with one slot gained at Prophecy 2, 4, 5, and 6 to a maximum of 5
 slots.
 
- - Screenshot of Ritual Chamber - 
+- Screenshot of Ritual Chamber -
 
 A list of all your available Rituals is presented on the left hand side of the
 Ritual Chamber. You can also filter by Ritual type (Artifact, Wrath, Deceit,
 Prophecy, Destruction and Charisma) by selecting the appropriate icon at the
 bottom of the screen.
 
- - Screenshot of lower menu - 
+- Screenshot of lower menu -
 
 To perform a Ritual, select it from the left hand side and drag it onto an empty
 Ritual slot. If you have insufficient tribute to pay for it, then a pop-up
 message will inform you as such.
 
-- Screenshot of dragging ritual to slot - 
+- Screenshot of dragging ritual to slot -
 
 Once successfully assigned to the slot, any applicable targets will need to be
 chosen. Some Rituals target Legions, Places of Power or Cantons on the board,
@@ -45,7 +45,7 @@ do not require targets.
 Once all applicable targets have been selected you will then need to pay any
 [tribute costs] as per normal.
 
- - Screenshot of pay costs - 
+- Screenshot of pay costs -
 
 Performing a Ritual requires an [Order Slot](Link to Order Slot Page).
 
@@ -76,7 +76,7 @@ Deceit against their Deceit for the purposes of Ritual Strength and Resistance.
 There is also an element of randomisation in a contested Ritual, which is
 currently unknown.
 
- - Strength vs Resist picture from encyclo in game - 
+- Strength vs Resist picture from encyclo in game -
 
 Strength and Resistance can be modified through various factors including Places
 of Power, Strongholds, Rituals, Relics, and Artifacts.
@@ -84,17 +84,16 @@ of Power, Strongholds, Rituals, Relics, and Artifacts.
 For Archfiends, Ranks are used for level. Each Rank above Baron grants +1 Ritual
 Resistance to a maximum of +3.
 
-For assets with a level such as Legions, Praetors and Artifacts, each level above
-1 grants +1 additional Ritual Resistance.
+For assets with a level such as Legions, Praetors and Artifacts, each level
+above 1 grants +1 additional Ritual Resistance.
 
 Additional Ritual Strength or Resistance bonusses outside of Power, asset level
 or Archfiend rank are capped at a maximum of +6.
 
 So the calculation is:
 
-```
-   Power + Strength Bonusses vs Power + Rank/Asset Level + Resistance Bonusses
-
+```text
+Power + Strength Bonusses vs Power + Rank/Asset Level + Resistance Bonusses
 ```
 
 There is also some level of randomisation that occurs as well, likely a die roll
@@ -195,7 +194,7 @@ Masked rituals are performed in exactly the same ways as other rituals however
 there is an additional contesting of your Ritual power against the opposing
 Archfiend's power as if there was a second Ritual being performed on them.
 
-- Picture of Mirror - 
+- Picture of Mirror -
 
 ## Ritual Framing
 
@@ -205,7 +204,7 @@ as if a chosen Archfiend was the one who performed the Ritual instead. If the
 Framing is not discovered then the chosen Archfiend will receive any
 consequences of the Ritual's actions including things like Excommunication.
 
- - Picture of Mirror with framing - 
+- Picture of Mirror with framing -
 
 ## The Scrying Bowl
 
@@ -221,11 +220,11 @@ make.
 It will give you a series of success statements based on the information
 available.
 
-"Very Likely"
-"Likely"
-"Coin Flip"
-"Unlikely"
-"Very Unlikely"
+- Very Likely
+- Likely
+- Coin Flip
+- Unlikely
+- Very Unlikely
 
 It will also give you a reliability score of "Reliable" or "Unreliable" based on
 the amount of information available to calculate the target's Ritual Resistance.
@@ -234,4 +233,4 @@ If you are employing Ritual Masking or Ritual Framing it will also give an
 estimation on how likely your Framing/Masking is to be discovered ranging from
 "Very Low" to "Very High".
 
- - Picture of Scrying Bowl estimate w' masking - 
+- Picture of Scrying Bowl estimate w' masking -

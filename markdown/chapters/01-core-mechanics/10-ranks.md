@@ -30,29 +30,29 @@ The abilities of each rank are listed below:
 
 ### Baron / Baroness / Baronex
 
-- Seek tribute orders will draw 3 tribute tokens and allow you to keep 2.
+- Seek tribute orders will draw 3 tribute tokens and allow you to keep 2
 - Diplomacy Demand actions will ask for 3 tribute tokens
-- Has 1 vote in edict voting.
+- Has 1 vote in edict voting
 
 ### Marquis / Marquiss / Marquix
 
-- Seek tribute orders will draw 4 tribute tokens and allow you to keep 3.
+- Seek tribute orders will draw 4 tribute tokens and allow you to keep 3
 - Diplomacy Demand actions will ask for up to 4 tribute tokens
-- Has 2 votes in edict voting.
-- Provides 1 additional Ritual Resistance against abilities which target you.
+- Has 2 votes in edict voting
+- Provides 1 additional Ritual Resistance against abilities which target you
 
 ### Duke / Duchess / Dukex
 
-- Seek tribute orders will draw 5 tribute tokens and allow you to keep 4.
+- Seek tribute orders will draw 5 tribute tokens and allow you to keep 4
 - Diplomacy Demand actions will ask for up to 5 tribute tokens
-- Has 3 votes in edict voting.
-- Unlocks the Extort diplomatic action.
-- Provides 2 additional Ritual Resistance against abilities which target you.
+- Has 3 votes in edict voting
+- Unlocks the Extort diplomatic action
+- Provides 2 additional Ritual Resistance against abilities which target you
 
 ### Prince / Princess / Princex
 
-- Seek tribute orders will draw 6 tribute tokens and allow you to keep 5.
+- Seek tribute orders will draw 6 tribute tokens and allow you to keep 5
 - Diplomacy Demand actions will ask for up to 6 tribute tokens
-- Has 4 votes in edict voting.
-- Unlocks the Humiliate diplomatic action.
-- Provides 3 additional Ritual Resistance against abilities which target you.
+- Has 4 votes in edict voting
+- Unlocks the Humiliate diplomatic action
+- Provides 3 additional Ritual Resistance against abilities which target you

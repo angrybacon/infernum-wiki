@@ -7,10 +7,10 @@ title: Promotions
 
 Upon leveling up, or as a result or certain Events, a Legion or Place of Power
 may gain the opportunity to take a Promotion. Despite being able to level up,
-Praetors will never gain Promotions. During Promotion, a choice of three
-options will be given to the player, each offering boosts to a random stat.
-For striders spawned through the Raise Abyss Strider ritual, the initial stats
-have the promotions applied at random.
+Praetors will never gain Promotions. During Promotion, a choice of three options
+will be given to the player, each offering boosts to a random stat. For striders
+spawned through the Raise Abyss Strider ritual, the initial stats have the
+promotions applied at random.
 
 ## Promotion Upgrades
 
@@ -24,12 +24,13 @@ When promoting to level X, the possible upgrades are as follows:
   combined, rounded up.
 
 In addition to the above, the Legion / Place of Power will also receive an
-additional attachment slot with which to assign Praetors, equip Artifacts of
-War or deploy Strategems.
+additional attachment slot with which to assign Praetors, equip Artifacts of War
+or deploy Strategems.
 
 ### Example Promotion
 
-For example: the Macabre Host, a level 1 Legion wins a victory and becomes level 2. The Legion is offered the following Promotion:
+For example: the Macabre Host, a level 1 Legion wins a victory and becomes
+level 2. The Legion is offered the following Promotion:
 
 - +2 Melee and +2 Infernal
 - +1 Ranged and +2 Infernal

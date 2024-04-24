@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ## What is Solium Infernum?
 
 Solium Infernum is a political grand strategy game set in Hell. It was published
@@ -33,7 +35,9 @@ game's core mechanics and features to help players' understanding on how they
 work, and thus present them with a more enjoyable experience as a result. Each
 section contains a set of chapters that fit under that section. This is designed
 to be an additional aide alongside the game's existing encyclopaediea and other
-fan-made wikis such as [this one](https://tinyurl.com/SIbLoGWiki).
+fan-made wikis such as [this one][fandomwiki].
+
+[fandomwiki]: https://solium-infernum-by-league-of-geeks.fandom.com/wiki/Solium_Infernum_by_League_of_Geeks_Wiki
 
 The different sections are as thus:
 

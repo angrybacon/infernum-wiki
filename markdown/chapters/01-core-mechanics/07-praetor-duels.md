@@ -17,8 +17,8 @@ challenge their rival to a Duel. Doing so will prompt for a choice of Praetor
 and a wager of prestige. Any owned Praetor may be submitted to a Duel, even if
 attached to a Legion or Place of Power.
 
-Note: Astaroth's Draconic Razzia does not count as a Vendetta and thus cannot
-be used to initiate a Duel.
+Note: Astaroth's Draconic Razzia does not count as a Vendetta and thus cannot be
+used to initiate a Duel.
 
 - Picture of Challenge Duel screen -
 
@@ -57,18 +57,18 @@ result. All tribute types are weighed the same for bribery, only the quantity of
 tribute is counted. If both bribes are tied, then there will be no damage boost
 to either Praetor.
 
- - Picture of the Arbiter - 
+- Picture of the Arbiter -
 
 ## Resolving a Duel
 
 The Praetor who does the most damage will win the Duel. In the event of a tie,
 the Duel will be a draw. Damage done is calculated by Praetor Level + Technique
-strength (if uncountered) + Ritual bonuses + Charisma (if bribe won). The
-winner will take the prestige wager of both Archfiends. A Praetor who loses a
-Duel will be banished. In a draw, both Praetors will die, and both prestige
-wagers are lost. The turn log will display the results of the Duel to all
-Archfiends in the game. This includes the chosen Praetors, the techniques used,
-and any boosts from Charisma.
+strength (if uncountered) + Ritual bonuses + Charisma (if bribe won). The winner
+will take the prestige wager of both Archfiends. A Praetor who loses a Duel will
+be banished. In a draw, both Praetors will die, and both prestige wagers are
+lost. The turn log will display the results of the Duel to all Archfiends in the
+game. This includes the chosen Praetors, the techniques used, and any boosts
+from Charisma.
 
 If a Praetor is not chosen for a Duel, or if a chosen Praetor is no longer
 eligible to be used (due to being killed in combat, stolen, banished or given
@@ -93,8 +93,8 @@ decision. Astarte is level 3.
 Lilith is notified of the Duel and selects their Praetor Baraquiel to be their
 duelist. Baraquiel is also level 3.
 
-During this turn, Andromalius uses their Dark Art ritual, Vanity's Annointed
-on their Praetor.
+During this turn, Andromalius uses their Dark Art ritual, Vanity's Annointed on
+their Praetor.
 
 Both Archfiends now need to select what technique they wish to use.
 
@@ -119,7 +119,7 @@ and Andromalius wins the bribe adding their Charisma (3) to the fight.
 
 The duel calculation plays out as thus:
 
-```
+```text
 Astarte:
 Level (3) + Technique (0 - Cancelled out) + Bribe (3) + Vanity's Annointed (2)
 Total: 7
@@ -129,7 +129,6 @@ vs
 Baraquiel:
 Level (3) + Technique (2)
 Total: 5
-
 ```
 
 Andromalius wins the duel and Baraquiel is banished.

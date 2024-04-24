@@ -72,34 +72,34 @@ sequencing.
 
 Let's look at an example for a 4 player game:
 
-It is turn 1 of a new game.
-Player A is the Regent for the turn.
-The turn order is Player A -> Player B -> Player C -> Player D
-Player C has the Crown of Bureaucracy.
+- It is turn 1 of a new game
+- Player A is the Regent for the turn
+- The turn order is Player A &rarr; Player B &rarr; Player C &rarr; Player D
+- Player C has the Crown of Bureaucracy
 
-1.  Player A's first Order Slot happens.
-1.  Player B'S first Order Slot happens.
-1.  Player C's first Order Slot happens.
-1.  Player D's first Order Slot happens.
-1.  Player A's second Order Slot happens.
-1.  Player B'S second Order Slot happens.
-1.  Player C's second Order Slot happens.
-1.  Player D's second Order Slot happens.
-1.  Player C's third Order Slot happens.
+1. Player A's first Order Slot happens
+1. Player B'S first Order Slot happens
+1. Player C's first Order Slot happens
+1. Player D's first Order Slot happens
+1. Player A's second Order Slot happens
+1. Player B'S second Order Slot happens
+1. Player C's second Order Slot happens
+1. Player D's second Order Slot happens
+1. Player C's third Order Slot happens
 
 Additional Order slots beyond the first 2 are always resolved after the others.
 
 For turn 2 of the game, the resolution would look like this:
 
-1.  Player B's first Order Slot happens.
-1.  Player C'S first Order Slot happens.
-1.  Player D's first Order Slot happens.
-1.  Player A's first Order Slot happens.
-1.  Player B's second Order Slot happens.
-1.  Player C'S second Order Slot happens.
-1.  Player D's second Order Slot happens.
-1.  Player A's second Order Slot happens.
-1.  Player C's third Order Slot happens.
+1. Player B's first Order Slot happens
+1. Player C'S first Order Slot happens
+1. Player D's first Order Slot happens
+1. Player A's first Order Slot happens
+1. Player B's second Order Slot happens
+1. Player C'S second Order Slot happens
+1. Player D's second Order Slot happens
+1. Player A's second Order Slot happens
+1. Player C's third Order Slot happens
 
 ### Other Turn Resolution Factors
 
@@ -121,12 +121,12 @@ The exact ordering of these in-game aspects is not known other than they occur
 after all player orders have been completed. The ones that are known are as
 such:
 
-1.  All Player Order Slots are resolved.
-1.  All existing neutral legions move.
-1.  Additional Abyssal Striders can spawn.
-1.  Bazaar auctions are resolved (in Regency Order of purchase)
-1.  Event cards are resolved.
-1.  Praetor Duels are resolved.
+1. All Player Order Slots are resolved
+1. All existing neutral legions move
+1. Additional Abyssal Striders can spawn
+1. Bazaar auctions are resolved (in Regency Order of purchase)
+1. Event cards are resolved
+1. Praetor Duels are resolved
 
 There are likely other events from the wider list that are within this sequence
 but at this time, it is unknown still.

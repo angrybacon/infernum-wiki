@@ -4,7 +4,7 @@ title: Sandbox
 
 ## Code
 
-````
+````text
 ```ts
 import { MANA_RE } from '@/tools/mana/constants';
 

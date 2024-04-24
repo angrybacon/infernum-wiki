@@ -19,7 +19,7 @@ opponent's or to offer other diplomatic solutions to dealing with them.
 
 Diplomacy is conducted within the Diplomacy menu on the top of the screen.
 
- - Image of Diplo Menu - 
+- Image of Diplo Menu -
 
 It displays all Archfiends in the game and their current diplomatic status to
 one another. All diplomatic statusses are public information.
@@ -27,7 +27,7 @@ one another. All diplomatic statusses are public information.
 To initiate a diplomatic action with another Archfiend, select the Conduct
 Diplomacy icon next to their portrait.
 
- - Image of Conduct Diplo Icon - 
+- Image of Conduct Diplo Icon -
 
 This menu will give a list of potential diplomatic actions you can perform with
 the chosen Archfiend. Known information such as Prestige, Dark Art, Relics, Rank
@@ -53,31 +53,26 @@ except for sending a message, against one another in the same turn, then there
 is a hierarchy of prioritisation which determines which diplomatic action
 succeeds.
 
- 1. Archfiend Rank
-
-Rank is the most important factor in identifying whose diplomatic action goes
-through first. With Baron rank being bottom of the hierachy and Prince being at
-the top.
-
- 2. Regency and Order Slot
-
-As with most other actions in the game, if two Archfiends of equal rank both
-perform diplomatic actions against one another in the same turn, then whoever
-placed their action earliest in the regency/turn/order slot order will have
-their diplomatic action succeed.
+1. **Archfiend Ranks**: rank is the most important factor in identifying whose
+   diplomatic action goes through first. With Baron rank being bottom of the
+   hierachy and Prince being at the top.
+1. **Regency and Order Slot**: as with most other actions in the game, if two
+   Archfiends of equal rank both perform diplomatic actions against one another
+   in the same turn, then whoever placed their action earliest in the
+   regency/turn/order slot order will have their diplomatic action succeed.
 
 Let us look at some examples:
 
 Erzsebet, a Princess wishes to Humiliate Beelzebub, a Baroness. Unbeknownest to
-her, Beelzebub wishes to make a Request to be Vassalised to Erzsebet as they
-are very aware of the difference in power. Beelzebub is the Regent and assigns
-the _Request to be Vassalised_ diplomatic action in their first order slot.
+her, Beelzebub wishes to make a Request to be Vassalised to Erzsebet as they are
+very aware of the difference in power. Beelzebub is the Regent and assigns the
+_Request to be Vassalised_ diplomatic action in their first order slot.
 
 Erzsebet is last in the turn order and assigns the _Humiliate_ action in their
 fourth order slot.
 
-Erzsebet's action will succeed as their rank is higher than Beelzebub's and as
-a result, Beelzebub finds herself humiliated.
+Erzsebet's action will succeed as their rank is higher than Beelzebub's and as a
+result, Beelzebub finds herself humiliated.
 
 Another example:
 
@@ -105,14 +100,14 @@ Prestige Wager:
 | Duke    |       6        |
 | Prince  |       5        |
 
-You demand an amount of tribute tokens from the target Archfiend. The number
-of tribute tokens you can demand is determined by your Archfiend Rank. Barons
-can demand 3 tokens, Marquis up to 4, Dukes up to 5 and Princes up to 6.
+You demand an amount of tribute tokens from the target Archfiend. The number of
+tribute tokens you can demand is determined by your Archfiend Rank. Barons can
+demand 3 tokens, Marquis up to 4, Dukes up to 5 and Princes up to 6.
 
 If the Demand is accepted, you will receive the prestige wager back, along with
-the tokens selected by the targeted Archfiend. They must send the full
-amount of tokens demanded, no matter what value those tokens are. If they are
-unable to provide enough tribute tokens, they must reject the demand.
+the tokens selected by the targeted Archfiend. They must send the full amount of
+tokens demanded, no matter what value those tokens are. If they are unable to
+provide enough tribute tokens, they must reject the demand.
 
 If the demand is rejected, the targeted Archfiend will receive your prestige
 wager and you will have to select an option of either Claiming a Vendetta
@@ -121,7 +116,7 @@ Down. Backing Down means that no further steps occur as part of this action.
 
 The full timeline of events for demand occurs as such:
 
- - Demand Timeline - 
+- Demand Timeline -
 
 Demands have a cooldown of 3 turns starting from the turn the Demand was made
 which is shared with the Extort action. Neither of these diplomatic actions can
@@ -138,9 +133,9 @@ Prestige Wager:
 | Duke   |       8        |
 | Prince |       7        |
 
-Extort is only available to Archfiends of Duke Rank or greater.
-Extort is very similar to Demand however instead of tribute, you demand your
-choice of either a single artifact or single praetor from the target Archfiend.
+Extort is only available to Archfiends of Duke Rank or greater. Extort is very
+similar to Demand however instead of tribute, you demand your choice of either a
+single artifact or single praetor from the target Archfiend.
 
 If the Extortion is accepted, you will receive the prestige wager and the
 targeted Archfiend selects one artifact/praetor (depending on your selection)
@@ -155,7 +150,7 @@ Down. Backing Down means that no further steps occur as part of this action.
 
 The full timeline of events for extortion occurs as such:
 
- - Extortion Timeline - 
+- Extortion Timeline -
 
 Extortions have a cooldown of 3 turns starting from the turn the extortion was
 made which is shared with the Demand action. Neither of these diplomatic actions
@@ -184,7 +179,7 @@ or challenge you to a Praetor Duel.
 
 The full timeline of events for insults occurs as such:
 
- - Insult Timeline - 
+- Insult Timeline -
 
 Insults have a cooldown of 3 turns starting from the turn the Insult was made
 which is shared with the Humiliate action. Neither of these diplomatic actions
@@ -216,7 +211,7 @@ take effect.
 
 The full timeline of events for humiliations occurs as such:
 
- - Humiliate Timeline - 
+- Humiliate Timeline -
 
 Humiliations have a cooldown of 3 turns starting from the turn the Humiliation
 was made which is shared with the Insult action. Neither of these diplomatic
@@ -244,7 +239,7 @@ becomes a Blood Vassal.
 
 The full timeline of events for Declare Blood Feud occurs as such:
 
- - Blood Feud Timeline - 
+- Blood Feud Timeline -
 
 ### Assert Weakness
 
@@ -263,12 +258,12 @@ any or if you perform the Assert Weakness action the "counter" resets to 0.
 
 You Assert Weakness against a target Archfiend. You must select the option of
 either starting a Vendetta against the target Archfiend or Challenging them to a
-Praetor Duel and pre-determine the terms of the Vendetta or the Praetor you
-wish to Duel with.
+Praetor Duel and pre-determine the terms of the Vendetta or the Praetor you wish
+to Duel with.
 
 The full timeline of events for Assert Weakness occurs as such:
 
- - Assert Weakness Timeline - 
+- Assert Weakness Timeline -
 
 ### Request to Be Vassalised
 
@@ -302,9 +297,9 @@ to your Blood Lord in the final turn.
 You will remain the vassal of your Blood Lord until one of these conditions is
 met:
 
-- You, or your Blood Lord are excommunicated.
-- Your Blood Lord is eliminated.
-- Your Blood Lord accepts an Offer to be Blood Lord from another player.
+- You, or your Blood Lord are excommunicated
+- Your Blood Lord is eliminated
+- Your Blood Lord accepts an Offer to be Blood Lord from another player
 
 ### Offer to Be Blood Lord
 
@@ -346,14 +341,14 @@ one another.
 
 You must send at least one tribute token.
 
-The length of the Armstice scales with the amount of tribute gifted.
-The Rank of the Archfiend sending the emmissary increases the number of turns
-the Armstice lasts.
+The length of the Armstice scales with the amount of tribute gifted. The Rank of
+the Archfiend sending the emmissary increases the number of turns the Armstice
+lasts.
 
 There is an upper limit of 11 turns the Armstice can last.
 
-The rank base for number of turns (based of sending a single tribute token of
-1 value:
+The rank base for number of turns (based of sending a single tribute token of 1
+value:
 
 | Rank    | Armstice Base |
 | ------- | :-----------: |
@@ -380,7 +375,7 @@ this action.
 
 The full timeline of events for Send Emmissary occurs as such:
 
- - Send Emmissary Timeline - 
+- Send Emmissary Timeline -
 
 ### Chains of Avarice
 
@@ -397,9 +392,9 @@ Chains of Avarice is a Dark Art unique to the Archfiend Mammon. It is a
 diplomatic action that may be used against another Archfiend.
 
 If accepted, the target draws and keeps an additional tribute token every time
-they perform a Seek Tribute action. Any tokens not kept by an Archfiend
-bound by Chains of Avarice is given to Mammon, consolidated as a single
-token. The agreement lasts 5 turns.
+they perform a Seek Tribute action. Any tokens not kept by an Archfiend bound by
+Chains of Avarice is given to Mammon, consolidated as a single token. The
+agreement lasts 5 turns.
 
 If rejected, nothing happens and the diplomacy is ended.
 
@@ -410,7 +405,7 @@ Archfiend.
 
 The full timeline of events for Chains of Avarice occurs as such:
 
- - Chains of Avarice Timeline - 
+- Chains of Avarice Timeline -
 
 ### Draconic Razzia
 
@@ -431,16 +426,16 @@ You notify the target of your Draconic Razzia. They have a turn to prepare a
 response to it and then the turn after, you and the target are engaged in a
 single turn of vendetta conditions (Legions may fight, you may capture cantons,
 conquer each other's Places of Power and use Destruction rituals unmasked on
-each other). Unlike a vendetta, there is no direct objective to complete and
-the Razzia will end after one turn. That means it does not count towards a
-Blood Feud.
+each other). Unlike a vendetta, there is no direct objective to complete and the
+Razzia will end after one turn. That means it does not count towards a Blood
+Feud.
 
 You may only send a Draconic Razzia to one target at a time and it has a
 cooldown of 5 turns before it may be used again against any target.
 
 The full timeline of events for Draconic Razzia occurs as such:
 
- - Draconic Razzia Timeline - 
+- Draconic Razzia Timeline -
 
 ### Lure of Excess
 
@@ -467,12 +462,12 @@ the target's Stronghold and Places of Power.
 If the Lure of Excess is rejected, you lose your prestige wager and the target
 loses 10 prestige. No other actions occur.
 
-You may only send a Lure of Excess to one target at a time and it has a
-cooldown of 5 turns before it may be used again against any target.
+You may only send a Lure of Excess to one target at a time and it has a cooldown
+of 5 turns before it may be used again against any target.
 
 The full timeline of events for Lure of Excess occurs as such:
 
- - Lure of Excess Timeline -
+- Lure of Excess Timeline -
 
 ### Vile Calumny
 
@@ -485,10 +480,10 @@ Prestige Wager:
 | Duke    |       5        |
 | Prince  |       5        |
 
-Vile Calumny is a Dark Art unique to the Archfiend Belial. It is a
-diplomatic action that frames one Archfiend for insulting the target Archfiend.
-This diplomatic action is unique insofar as although you send it to a target,
-after sending it stops being a diplomatic action between you and the target and
+Vile Calumny is a Dark Art unique to the Archfiend Belial. It is a diplomatic
+action that frames one Archfiend for insulting the target Archfiend. This
+diplomatic action is unique insofar as although you send it to a target, after
+sending it stops being a diplomatic action between you and the target and
 becomes a diplomatic action between the target and the Archfiend being framed.
 
 You cannot frame yourself.
@@ -510,12 +505,12 @@ If the false insult is rejected, the target gains prestige equal to the prestige
 wager and must declare a Praetor Duel or declare a Vendetta against the framed
 Archfiend.
 
-You may only send a Vile Calumny to one target at a time and it has a
-cooldown of 5 turns before it may be used again against any target.
+You may only send a Vile Calumny to one target at a time and it has a cooldown
+of 5 turns before it may be used again against any target.
 
 The full timeline of events for Vile Calumny occurs as such:
 
- - Vile Calumny Timeline -
+- Vile Calumny Timeline -
 
 ### Send Message
 
