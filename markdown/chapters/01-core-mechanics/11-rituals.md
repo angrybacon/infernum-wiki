@@ -11,8 +11,8 @@ Chamber that can be found on the upper central bar.
 
 - Screenshot of Ritual Chamber Icon -
 
-Rituals are obtained from either Archfiends as part of their [Dark Arts](),
-levelling up [Powers]() or [Artifacts of Sorcery]().
+Rituals are obtained from either Archfiends as part of their Dark Arts,
+levelling up Powers or Artifacts of Sorcery.
 
 ## Performing a Ritual
 
@@ -46,7 +46,7 @@ Once all applicable targets have been selected you will then need to pay any
 
 - Screenshot of pay costs -
 
-Performing a Ritual requires an [Order Slot]().
+Performing a Ritual requires an [Order Slot][orders].
 
 ## Continuous Rituals
 
@@ -233,3 +233,5 @@ estimation on how likely your Framing/Masking is to be discovered ranging from
 "Very Low" to "Very High".
 
 - Picture of Scrying Bowl estimate w' masking -
+
+[orders]: /core-mechanics/orders

@@ -11,9 +11,9 @@ offers and outright insults that fly through Hell's fetid air like carrion
 birds.
 
 Diplomacy is a way to control the flow of the game and provides a number of
-options for initiating combat in the form of [Vendettas]() and ways to either
-increase your [Prestige]()at the expense of your opponent's or to offer other
-diplomatic solutions to dealing with them.
+options for initiating combat in the form of [Vendettas][vendettas] and ways to
+either increase your Prestige at the expense of your opponent's or to offer
+other diplomatic solutions to dealing with them.
 
 ## The Diplomacy Menu
 
@@ -86,8 +86,8 @@ and a message informing them of the failure.
 
 ## List of Diplomatic Actions
 
-[Praetor Duels]() and [Vendettas]() are covered in greater detail in other
-chapters.
+[Praetor Duels][praetor-duels] and [Vendettas][vendettas] are covered in greater
+detail in other chapters.
 
 ### Demand
 
@@ -527,3 +527,6 @@ between other rival Archfiends in the game.
 If an Archfiend is excommunicated, all diplomatic actions and diplomatic
 statuses are immediately ended and they cannot engage in any Diplomacy nor can
 any Archfiends engage in Diplomacy with the excommunicated Archfiend.
+
+[praetor-duels]: /core-mechanics/praetor-duels
+[vendettas]: /core-mechanics/vendettas

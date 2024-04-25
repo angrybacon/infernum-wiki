@@ -14,14 +14,14 @@ Slots are shown in the bottom right hand corner of your in-game screen.
 
 By default, each Archfiend at the start of a game will have 2 Order Slots.
 
-There is a [Relic](), the Crown of Bureaucracy, which starts an Archfiend off
-with an additional Order Slot available.
+There is a Relic, the Crown of Bureaucracy, which starts an Archfiend off with
+an additional Order Slot available.
 
-Increasing any [Power]() to 4 will unlock an additional Order Slot for each
-power increased this way.
+Increasing any Power to 4 will unlock an additional Order Slot for each power
+increased this way.
 
-There is an [Artifact](), the Pseudomonarchia Daemonum, which you can purchase
-and attach to your Stronghold or Place of Power for +1 Order Slot.
+There is an Artifact, the Pseudomonarchia Daemonum, which you can purchase and
+attach to your Stronghold or Place of Power for +1 Order Slot.
 
 You may only ever have up to 6 Order Slots total from any number of sources.
 

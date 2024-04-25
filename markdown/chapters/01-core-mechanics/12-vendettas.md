@@ -10,8 +10,8 @@ A Vendetta is a conditional state of war between two Archfiends. It is the
 primary way for Archfiends to contest one anothers' territory, Places of Power
 and gain Prestige via the outcome.
 
-Vendettas are obtained/initiated through [Diplomacy]() and require certain
-Diplomatic actions to occur.
+Vendettas are obtained/initiated through [Diplomacy][diplomacy] and require
+certain Diplomatic actions to occur.
 
 Each Vendetta has a turn limit (between 1 and 8 turns) and an objective, both
 chosen by the Archfiend who initiates the Vendetta.
@@ -19,8 +19,8 @@ chosen by the Archfiend who initiates the Vendetta.
 Unlike normal, during a state of Vendetta, the two Archfiends involved may
 freely traverse each others cantons, capture cantons from one another, engage in
 combat between Legions and engage in combat and capture Places of Power.
-Archfiends may also use unmasked Destruction [Rituals]() against one another
-during a Vendetta.
+Archfiends may also use unmasked Destruction [Rituals][rituals] against one
+another during a Vendetta.
 
 As soon as a Vendetta ends, all hostilities immediately stop. Any Legions stood
 in territory belonging to another Archfiend are teleported to a canton adjacent
@@ -54,9 +54,9 @@ with that canton owned.
 The initiator selects a number of Places of Power owned by the target Archfiend
 to be taken during the Vendetta. This can be between 1 and 2 Places of Powers.
 To take a Place of Power, you must have your Legion reduce the health of it to 0
-in [Combat](). Destruction rituals can be used to weaken them but you will not
-gain control of the Place of Power unless a Legion takes it. Upon taking it, you
-will gain control of any Praetors and/or Artifacts attached to it.
+in [Combat][combat]. Destruction rituals can be used to weaken them but you will
+not gain control of the Place of Power unless a Legion takes it. Upon taking it,
+you will gain control of any Praetors and/or Artifacts attached to it.
 
 Each Place of Power captured during the Vendetta will count towards the Victory
 Condition, even if you did not start the Vendetta with that Place of Power
@@ -93,13 +93,13 @@ A Blood Feud is an unconditional state of war between two Archfiends. Once a
 Blood Feud is claimed, a Vendetta-like state of hostilities will be active
 between the Archfiends involved until the Blood Feud ends.
 
-Blood Feuds are obtained/initiated through [Diplomacy]() and require certain
-Diplomatic actions to occur.
+Blood Feuds are obtained/initiated through [Diplomacy][diplomacy] and require
+certain Diplomatic actions to occur.
 
 During a Blood Feud, the two Archfiends involved may freely traverse each others
 cantons, capture cantons from one another, engage in combat between Legions and
 engage in combat and capture Places of Power. Archfiends may also use unmasked
-Destruction [Rituals]() against one another during a Blood Feud.
+Destruction [Rituals][rituals] against one another during a Blood Feud.
 
 ## Ending a Blood Feud
 
@@ -110,3 +110,7 @@ A Blood Feud immediately ends as a result of the following:
   Archfiend or destroyed
 - One Archfiend involved becoming the vassal of another Archfiend
 - One Archfiend involved becoming Excommunicated
+
+[combat]: /core-mechanics/combat
+[diplomacy]: /core-mechanics/diplomacy
+[rituals]: /core-mechanics/rituals
