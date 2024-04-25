@@ -4,8 +4,6 @@ banner: Infernal Affliction
 title: Rituals
 ---
 
-## Table of Contents
-
 ## What are Rituals?
 
 Rituals are single-use or continuous powers that are activated from your Ritual
@@ -13,9 +11,8 @@ Chamber that can be found on the upper central bar.
 
 - Screenshot of Ritual Chamber Icon -
 
-Rituals are obtained from either Archfiends as part of their [Dark Arts](Link
-to Dark Arts Page), levelling up [Powers](Link to Powers Page) or [Artifacts of
-Sorcery](Link to Artifacts Page).
+Rituals are obtained from either Archfiends as part of their Dark Arts,
+levelling up Powers or Artifacts of Sorcery.
 
 ## Performing a Ritual
 
@@ -49,7 +46,7 @@ Once all applicable targets have been selected you will then need to pay any
 
 - Screenshot of pay costs -
 
-Performing a Ritual requires an [Order Slot](Link to Order Slot Page).
+Performing a Ritual requires an [Order Slot][orders].
 
 ## Continuous Rituals
 
@@ -86,17 +83,16 @@ of Power, Strongholds, Rituals, Relics, and Artifacts.
 For Archfiends, Ranks are used for level. Each Rank above Baron grants +1 Ritual
 Resistance to a maximum of +3.
 
-For assets with a level such as Legions, Praetors and Artifacts, each level above
-1 grants +1 additional Ritual Resistance.
+For assets with a level such as Legions, Praetors and Artifacts, each level
+above 1 grants +1 additional Ritual Resistance.
 
 Additional Ritual Strength or Resistance bonusses outside of Power, asset level
 or Archfiend rank are capped at a maximum of +6.
 
 So the calculation is:
 
-```
-   Power + Strength Bonusses vs Power + Rank/Asset Level + Resistance Bonusses
-
+```text
+Power + Strength Bonusses vs Power + Rank/Asset Level + Resistance Bonusses
 ```
 
 There is also some level of randomisation that occurs as well, likely a die roll
@@ -223,11 +219,11 @@ make.
 It will give you a series of success statements based on the information
 available.
 
-"Very Likely"
-"Likely"
-"Coin Flip"
-"Unlikely"
-"Very Unlikely"
+- Very Likely
+- Likely
+- Coin Flip
+- Unlikely
+- Very Unlikely
 
 It will also give you a reliability score of "Reliable" or "Unreliable" based on
 the amount of information available to calculate the target's Ritual Resistance.
@@ -237,3 +233,5 @@ estimation on how likely your Framing/Masking is to be discovered ranging from
 "Very Low" to "Very High".
 
 - Picture of Scrying Bowl estimate w' masking -
+
+[orders]: /core-mechanics/orders

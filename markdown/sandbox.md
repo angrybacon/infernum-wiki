@@ -2,9 +2,14 @@
 title: Sandbox
 ---
 
+Rather than having to maintain any additional guidelines, refer to the following
+document in order to see how Markdown is rendered through the Wiki. It relies
+directly on components implemented within the Wiki so that the preview is as
+faithful as can be.
+
 ## Code
 
-````
+````text
 ```ts
 import { MANA_RE } from '@/tools/mana/constants';
 
@@ -28,6 +33,13 @@ export const toDirective = (text: string): string => {
 
 ## Images
 
+Prefer smaller images in resolution. Most users don't need a 4K screenshot of
+the game. Make them as tall as you actually need but not taller since those
+typically prevent users to read a page comfortably especially on mobile devices.
+
+Both the accessible text (between square brackets) and the title (between single
+quotes) are mandatory for a proper accessibility of your images within the page.
+
 ```md
 ![A large placeholder image](https://www.placehold.co/1600x200 'High resolution')
 
@@ -46,6 +58,8 @@ export const toDirective = (text: string): string => {
 
 ### Lists
 
+#### Unordered Lists
+
 ```md
 - Aliquam at _pretium_ eros, vitae congue orci
 - Fusce **bibendum** ac mauris eu malesuada
@@ -63,6 +77,8 @@ export const toDirective = (text: string): string => {
     - Donec dictum felis auctor :spoiler[semper] porttitor
     - Duis felis quam, ornare non tempor a, accumsan sed orci
 - Vivamus a facilisis est
+
+#### Ordered Lists
 
 ```md
 1. Aliquam at _pretium_ eros, vitae congue orci
@@ -120,6 +136,8 @@ quam.
 
 ### Spoilers
 
+Inline verbatim content is not supported within spoiler blocks.
+
 ```md
 :::spoiler
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
@@ -142,18 +160,48 @@ quam.
 
 ### Tables
 
+The following items are not supported within tables:
+
+- Merged cells
+- Headless tables
+- Multiline text within rows
+
+#### Default Alignement
+
 ```md
 | One                         | Two              | Three                     |
 | --------------------------- | ---------------- | ------------------------- |
+| Ultrices a _faucibus_ eget  | Ultricies lectus | Curabitur lobortis dictum |
+| Quisque **libero** elit     | Aliquet sem vel  | Quisque commodo urna      |
 | Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
 | Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
-| Quisque libero elit         | Aliquet sem vel  | Quisque commodo urna      |
-| Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
 ```
 
 | One                         | Two              | Three                     |
 | --------------------------- | ---------------- | ------------------------- |
+| Ultrices a _faucibus_ eget  | Ultricies lectus | Curabitur lobortis dictum |
+| Quisque **libero** elit     | Aliquet sem vel  | Quisque commodo urna      |
 | Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
 | Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
-| Quisque libero elit         | Aliquet sem vel  | Quisque commodo urna      |
-| Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
+
+#### Custom Alignement
+
+<!-- prettier-ignore-start -->
+
+```md
+| One                         | Two              | Three                     |
+| :-------------------------- | :--------------: | ------------------------: |
+| Ultrices a _faucibus_ eget  | Ultricies lectus | Curabitur lobortis dictum |
+| Quisque **libero** elit     | Aliquet sem vel  | Quisque commodo urna      |
+| Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
+| Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
+```
+
+<!-- prettier-ignore-end -->
+
+| One                         |       Two        |                     Three |
+| :-------------------------- | :--------------: | ------------------------: |
+| Ultrices a _faucibus_ eget  | Ultricies lectus | Curabitur lobortis dictum |
+| Quisque **libero** elit     | Aliquet sem vel  |      Quisque commodo urna |
+| Morbi consectetur non velit |  Tempor a massa  |       Orci varius natoque |
+| Sed pulvinar sapien in odio |  Cras nec nisl   |    Nascetur ridiculus mus |

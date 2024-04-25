@@ -10,9 +10,12 @@
     "dev": "next dev",
     "lint": "pnpm run '/^lint:.+/'",
     "lint:code": "eslint .",
-    "lint:format": "prettier --check --log-level warn app/",
+    "lint:format": "pnpm run '/^lint:format:.+/'",
+    "lint:format:code": "prettier --check --log-level warn app/ components/ contexts/",
+    "lint:format:wiki": "prettier --check --log-level warn markdown/",
     "lint:prune": "knip",
     "lint:typings": "tsc",
+    "lint:wiki": "markdownlint markdown/",
     "start": "next start"
   },
   "dependencies": {
@@ -46,11 +49,12 @@
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-react": "7.34.1",
     "eslint-plugin-react-hooks": "4.6.0",
-    "knip": "5.9.4",
+    "knip": "5.10.0",
+    "markdownlint-cli": "0.39.0",
     "mdast-util-directive": "3.0.0",
     "prettier": "3.2.5",
     "typescript": "5.4.5",
-    "typescript-eslint": "7.7.0",
+    "typescript-eslint": "7.7.1",
     "unified": "11.0.4"
   }
 }
