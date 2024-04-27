@@ -19,7 +19,7 @@ other diplomatic solutions to dealing with them.
 
 Diplomacy is conducted within the Diplomacy menu on the top of the screen.
 
-- Image of Diplo Menu -
+![Image of Diplo Menu](https://www.placehold.co/1920x1080 'Diplo Menu')
 
 It displays all Archfiends in the game and their current diplomatic status to
 one another. All diplomatic statusses are public information.
@@ -27,7 +27,7 @@ one another. All diplomatic statusses are public information.
 To initiate a diplomatic action with another Archfiend, select the Conduct
 Diplomacy icon next to their portrait.
 
-- Image of Conduct Diplo Icon -
+![Image of Conduct Diplo Icon](https://www.placehold.co/1920x1080 'Conduct Diplo Icon')
 
 This menu will give a list of potential diplomatic actions you can perform with
 the chosen Archfiend. Known information such as Prestige, Dark Art, Relics, Rank
@@ -116,7 +116,7 @@ Down. Backing Down means that no further steps occur as part of this action.
 
 The full timeline of events for demand occurs as such:
 
-- Demand Timeline -
+MERMAID DEMAND TIMELINE
 
 Demands have a cooldown of 3 turns starting from the turn the Demand was made
 which is shared with the Extort action. Neither of these diplomatic actions can
@@ -150,7 +150,7 @@ Down. Backing Down means that no further steps occur as part of this action.
 
 The full timeline of events for extortion occurs as such:
 
-- Extortion Timeline -
+MERMAID EXTORTION TIMELINE
 
 Extortions have a cooldown of 3 turns starting from the turn the extortion was
 made which is shared with the Demand action. Neither of these diplomatic actions
@@ -179,7 +179,7 @@ or challenge you to a Praetor Duel.
 
 The full timeline of events for insults occurs as such:
 
-- Insult Timeline -
+MERMAID INSULT TIMELINE
 
 Insults have a cooldown of 3 turns starting from the turn the Insult was made
 which is shared with the Humiliate action. Neither of these diplomatic actions
@@ -211,7 +211,7 @@ take effect.
 
 The full timeline of events for humiliations occurs as such:
 
-- Humiliate Timeline -
+MERMAID HUMILIATE TIMELINE
 
 Humiliations have a cooldown of 3 turns starting from the turn the Humiliation
 was made which is shared with the Insult action. Neither of these diplomatic
@@ -239,7 +239,7 @@ becomes a Blood Vassal.
 
 The full timeline of events for Declare Blood Feud occurs as such:
 
-- Blood Feud Timeline -
+MERMAID BLOOD FEUD TIMELINE
 
 ### Assert Weakness
 
@@ -263,7 +263,7 @@ to Duel with.
 
 The full timeline of events for Assert Weakness occurs as such:
 
-- Assert Weakness Timeline -
+MERMAID ASSERT WEAKNESS TIMELINE
 
 ### Request to Be Vassalised
 
@@ -375,7 +375,7 @@ this action.
 
 The full timeline of events for Send Emmissary occurs as such:
 
-- Send Emmissary Timeline -
+MERMAID SEND EMMISSARY TIMELINE
 
 ### Chains of Avarice
 
@@ -405,7 +405,7 @@ Archfiend.
 
 The full timeline of events for Chains of Avarice occurs as such:
 
-- Chains of Avarice Timeline -
+MERMAID CHAINS OF AVARICE TIMELINE
 
 ### Draconic Razzia
 
@@ -435,7 +435,7 @@ cooldown of 5 turns before it may be used again against any target.
 
 The full timeline of events for Draconic Razzia occurs as such:
 
-- Draconic Razzia Timeline -
+MERMAID DRACONIC RAZZIA TIMELINE
 
 ### Lure of Excess
 
@@ -467,7 +467,7 @@ of 5 turns before it may be used again against any target.
 
 The full timeline of events for Lure of Excess occurs as such:
 
-- Lure of Excess Timeline -
+MERMAID LURE OF EXCESS TIMELINE
 
 ### Vile Calumny
 
@@ -510,7 +510,7 @@ of 5 turns before it may be used again against any target.
 
 The full timeline of events for Vile Calumny occurs as such:
 
-- Vile Calumny Timeline -
+MERMAID VILE CALUMNY TIMELINE
 
 ### Send Message
 

@@ -20,12 +20,12 @@ attached to a Legion or Place of Power.
 Note: Astaroth's Draconic Razzia does not count as a Vendetta and thus cannot be
 used to initiate a Duel.
 
-- Picture of Challenge Duel screen -
+![Picture of Challenge Duel screen](https://www.placehold.co/1920x1080 'Challenge Duel screen')
 
 Once a challenge is made, the Duel process will resolve over the next few turns,
 as shown below.
 
-- Flowchart of Duel process -
+MERMAID FLOWCHART OF DUEL PROCESS
 
 ## Fighting a Duel
 
@@ -45,7 +45,7 @@ special ability.
 A cancelled technique does not provide any effects of its ability and does not
 contribute its strength value to the Duel.
 
-- Picture of Technique circle -
+![Picture of Technique circle](https://www.placehold.co/1920x1080 'Technique circle')
 
 ### Bribing the Arbiter
 
@@ -57,7 +57,7 @@ result. All tribute types are weighed the same for bribery, only the quantity of
 tribute is counted. If both bribes are tied, then there will be no damage boost
 to either Praetor.
 
-- Picture of the Arbiter -
+![Picture of the Arbiter](https://www.placehold.co/1920x1080 'The Arbiter')
 
 ## Resolving a Duel
 

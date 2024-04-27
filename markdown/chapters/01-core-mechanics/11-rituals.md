@@ -9,7 +9,7 @@ title: Rituals
 Rituals are single-use or continuous powers that are activated from your Ritual
 Chamber that can be found on the upper central bar.
 
-- Screenshot of Ritual Chamber Icon -
+![Screenshot of Ritual Chamber Icon](https://www.placehold.co/1920x1080 'Ritual Chamber Icon')
 
 Rituals are obtained from either Archfiends as part of their Dark Arts,
 levelling up Powers or Artifacts of Sorcery.
@@ -21,20 +21,20 @@ Ritual slot available by default. Ritual slots are unlocked by increasing your
 Prophecy power with one slot gained at Prophecy 2, 4, 5, and 6 to a maximum of 5
 slots.
 
-- Screenshot of Ritual Chamber -
+![Screenshot of Ritual Chamber](https://www.placehold.co/1920x1080 'Ritual Chamber')
 
 A list of all your available Rituals is presented on the left hand side of the
 Ritual Chamber. You can also filter by Ritual type (Artifact, Wrath, Deceit,
 Prophecy, Destruction and Charisma) by selecting the appropriate icon at the
 bottom of the screen.
 
-- Screenshot of lower menu -
+![Screenshot of lower menu](https://www.placehold.co/1920x1080 'Lower menu')
 
 To perform a Ritual, select it from the left hand side and drag it onto an empty
 Ritual slot. If you have insufficient tribute to pay for it, then a pop-up
 message will inform you as such.
 
-- Screenshot of dragging ritual to slot -
+![Screenshot of dragging ritual to slot](https://www.placehold.co/1920x1080 'Dragging ritual to slot')
 
 Once successfully assigned to the slot, any applicable targets will need to be
 chosen. Some Rituals target Legions, Places of Power or Cantons on the board,
@@ -44,7 +44,7 @@ do not require targets.
 Once all applicable targets have been selected you will then need to pay any
 [tribute costs] as per normal.
 
-- Screenshot of pay costs -
+![Screenshot of pay costs](https://www.placehold.co/1920x1080 'Pay costs')
 
 Performing a Ritual requires an [Order Slot][orders].
 
@@ -53,7 +53,7 @@ Performing a Ritual requires an [Order Slot][orders].
 Some Rituals are Continuous Rituals. These are denoted by a symbol on their
 Ritual card.
 
-- Symbol -
+![Symbol](https://www.placehold.co/1920x1080 'Symbol')
 
 Continuous Rituals stay in place each turn until their cost is no longer paid.
 Only the first performing of a Continuous Ritual requires an order slot, paying
@@ -75,7 +75,7 @@ Deceit against their Deceit for the purposes of Ritual Strength and Resistance.
 There is also an element of randomisation in a contested Ritual, which is
 currently unknown.
 
-- Strength vs Resist picture from encyclo in game -
+![Strength vs Resist picture from encyclo in game](https://www.placehold.co/1920x1080 'Strength vs Resist picture from encyclo in game')
 
 Strength and Resistance can be modified through various factors including Places
 of Power, Strongholds, Rituals, Relics, and Artifacts.
@@ -193,7 +193,7 @@ Masked rituals are performed in exactly the same ways as other rituals however
 there is an additional contesting of your Ritual power against the opposing
 Archfiend's power as if there was a second Ritual being performed on them.
 
-- Picture of Mirror -
+![Picture of Mirror](https://www.placehold.co/1920x1080 'Mirror')
 
 ## Ritual Framing
 
@@ -203,7 +203,7 @@ as if a chosen Archfiend was the one who performed the Ritual instead. If the
 Framing is not discovered then the chosen Archfiend will receive any
 consequences of the Ritual's actions including things like Excommunication.
 
-- Picture of Mirror with framing -
+![Picture of Mirror with framing](https://www.placehold.co/1920x1080 'Mirror with framing')
 
 ## The Scrying Bowl
 
@@ -232,6 +232,6 @@ If you are employing Ritual Masking or Ritual Framing it will also give an
 estimation on how likely your Framing/Masking is to be discovered ranging from
 "Very Low" to "Very High".
 
-- Picture of Scrying Bowl estimate w' masking -
+![Picture of Scrying Bowl estimate w' masking](https://www.placehold.co/1920x1080 "Scrying Bowl estimate w' masking")
 
 [orders]: /core-mechanics/orders
