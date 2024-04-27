@@ -1,6 +1,8 @@
 'use client';
 
 import { type Menu } from '@korumite/kiwi/server';
+import { mdiChevronDown } from '@mdi/js';
+import Icon from '@mdi/react';
 import {
   Box,
   Collapse,
@@ -52,7 +54,16 @@ export const Drawer: FunctionComponent<Props> = ({ menu }) => {
         {menu.map(([chapter, entries]) => (
           <Fragment key={chapter}>
             <ListItemButton onClick={handleClick(chapter)}>
-              <ListItemText primary={chapter.replace('-', ' ')} />+
+              <ListItemText primary={chapter.replace('-', ' ')} />
+              <Box
+                component={Icon}
+                path={mdiChevronDown}
+                rotate={menuEntries[chapter] ? -180 : 0}
+                size={1}
+                sx={({ transitions }) => ({
+                  transition: transitions.create('transform'),
+                })}
+              />
             </ListItemButton>
             <Collapse in={menuEntries[chapter]}>
               <Divider />
