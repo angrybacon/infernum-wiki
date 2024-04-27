@@ -1,6 +1,6 @@
 ---
-authors: ShuSh. Doishy
-banner: Witness the Martyr
+authors: ShuSh, Doishy
+banner: WITNESS_THE_MARTYR
 title: Combat
 ---
 

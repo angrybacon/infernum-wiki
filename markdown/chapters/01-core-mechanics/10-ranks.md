@@ -1,6 +1,6 @@
 ---
 authors: ShuSh, Doishy
-banner: Elocution
+banner: ELOCUTION
 title: Infernal Ranks
 ---
 

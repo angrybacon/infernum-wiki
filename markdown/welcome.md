@@ -4,7 +4,7 @@
 
 Solium Infernum is a political grand strategy game set in Hell. It was published
 in 2024 by League of Geeks and is the spiritual successor to 2009 game of the
-same name. A small excerpt from the Steam description may be found below:
+same name. A small excerpt from the Steam description may be found below.
 
 ### Indulge your Dark Side
 
@@ -37,15 +37,11 @@ section contains a set of chapters that fit under that section. This is designed
 to be an additional aide alongside the game's existing encyclopaediea and other
 fan-made wikis such as [this one][fandomwiki].
 
-[fandomwiki]: https://solium-infernum-by-league-of-geeks.fandom.com/wiki/Solium_Infernum_by_League_of_Geeks_Wiki
-
-The different sections are as thus:
-
 ### Core Mechanics
 
 Explanations and examples of the key gameplay mechanics
 
-### Assets
+### Assets Mechanics
 
 Explanations and examples of the different units (Legions), items
 (Artifacts/Relics), characters (Archfiends) and environments (Cantons) the game
@@ -56,3 +52,5 @@ contains.
 In the future we may consider adding a detailed list of Assets such as Legions,
 Rituals, Relics etc however at this time this information is readily available
 elsewhere.
+
+[fandomwiki]: https://solium-infernum-by-league-of-geeks.fandom.com/wiki/Solium_Infernum_by_League_of_Geeks_Wiki

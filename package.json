@@ -22,7 +22,7 @@
     "@emotion/cache": "11.11.0",
     "@emotion/react": "11.11.4",
     "@emotion/styled": "11.11.5",
-    "@korumite/kiwi": "2.4.0",
+    "@korumite/kiwi": "2.5.0",
     "@mdi/js": "7.4.47",
     "@mdi/react": "1.6.1",
     "@mui/material": "5.15.15",
@@ -34,6 +34,7 @@
     "react-syntax-highlighter": "15.5.0",
     "remark-directive": "3.0.0",
     "remark-gfm": "4.0.0",
+    "sharp": "0.33.3",
     "unist-util-visit": "5.0.0"
   },
   "devDependencies": {

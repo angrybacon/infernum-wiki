@@ -1,5 +1,6 @@
 ---
 authors: ShuSh, Doishy
+banner: WITNESS_THE_MARTYR
 title: Events
 ---
 
