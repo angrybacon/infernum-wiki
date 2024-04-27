@@ -12,7 +12,7 @@ export default function Chapter(context: {
   const { chapter, slug } = context.params;
   const path = CHAPTERS.paths[chapter]?.[slug];
   if (!path) return null;
-  const { banner, text, title } = read(path);
+  const { banner, minutes, text, title } = read(path);
   if (!banner) {
     throw new Error(`Missing banner for "${path}"`);
   }
@@ -21,7 +21,7 @@ export default function Chapter(context: {
   }
   return (
     <>
-      <Banner banner={banner} title={title} />
+      <Banner banner={banner} minutes={minutes} title={title} />
       <Markdown markdown={text} />
     </>
   );

@@ -4,9 +4,13 @@ import { type FunctionComponent } from 'react';
 
 import { BANNERS } from '@/components/Banner/banners';
 
-type Props = { banner: string; title: string };
+type Props = { banner: string; minutes: string; title: string };
 
-export const Banner: FunctionComponent<Props> = ({ banner, title }) => {
+export const Banner: FunctionComponent<Props> = ({
+  banner,
+  minutes,
+  title,
+}) => {
   const background = BANNERS[banner];
   if (!background) {
     throw new Error(
@@ -42,6 +46,20 @@ export const Banner: FunctionComponent<Props> = ({ banner, title }) => {
         variant="h1"
       >
         {title}
+      </Typography>
+      <Typography
+        variant="caption"
+        sx={{
+          bottom: 0,
+          color: 'grey.50',
+          mb: 1,
+          mr: 2,
+          position: 'absolute',
+          right: 0,
+          textShadow: '0 0 4px black',
+        }}
+      >
+        Reading time: {minutes} {minutes === '1' ? 'minute' : 'minutes'}
       </Typography>
     </Box>
   );
