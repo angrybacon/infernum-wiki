@@ -1,5 +1,6 @@
 ---
 authors: Doishy, ShuSh
+banner: WITNESS_THE_MARTYR
 title: Purchasing
 ---
 

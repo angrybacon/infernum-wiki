@@ -1,6 +1,6 @@
 ---
 authors: Doishy, ShuSh
-banner: Infernal Affliction
+banner: INFERNAL_AFFLICTION
 title: Rituals
 ---
 

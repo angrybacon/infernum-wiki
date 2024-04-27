@@ -1,6 +1,6 @@
 ---
 authors: Doishy, ShuSh
-banner: Infernal Juggernaught
+banner: INFERNAL_JUGGERNAUT
 title: Vendettas and Blood Feuds
 ---
 

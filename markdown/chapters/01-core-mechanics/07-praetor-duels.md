@@ -1,6 +1,6 @@
 ---
 authors: ShuSh, Doishy
-banner: Vanity's Annointed
+banner: VANITY_S_ANNOINTED
 title: Praetor Duels
 ---
 
