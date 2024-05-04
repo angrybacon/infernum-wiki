@@ -33,18 +33,24 @@ export default function Layout({ children }: PropsWithChildren) {
             <DrawerAndHeader menu={MENU} />
             <Container
               component="main"
-              maxWidth="md"
+              maxWidth="xl"
               sx={{
                 display: 'flex',
                 flexDirection: 'column',
-                gap: { xs: 2, sm: 4 },
-                height: '100vh',
-                mx: 'auto',
+                minHeight: '100vh',
+                '> *': { mb: { xs: 2, sm: 3 } },
               }}
             >
               <Toolbar role="presentation" />
-              {children}
-              <Footer sx={{ mt: 'auto', pb: { xs: 2, sm: 4 } }} />
+              <Box
+                sx={{
+                  display: 'grid',
+                  gridTemplateAreas: '"banner banner" "markdown toc"',
+                }}
+              >
+                {children}
+              </Box>
+              <Footer sx={{ mt: 'auto' }} />
             </Container>
           </AppRouterCacheProvider>
         </Box>

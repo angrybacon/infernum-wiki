@@ -24,6 +24,7 @@ export const Banner: FunctionComponent<Props> = ({
         borderRadius: 4,
         display: 'flex',
         flexShrink: 0,
+        gridArea: 'banner',
         height: { xs: 160, md: 250 },
         justifyContent: 'center',
         overflow: 'hidden',

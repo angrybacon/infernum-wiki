@@ -49,20 +49,19 @@ const COMPONENTS_EXTRA = {
 type Props = { markdown: string; title?: string };
 
 export const Markdown: FunctionComponent<Props> = ({ markdown, title }) => (
-  <>
+  <Box sx={{ display: 'grid', gap: 4, gridArea: 'markdown' }}>
     {title && (
       <Typography gutterBottom variant="h1">
         {title}
       </Typography>
     )}
     <Box
+      children={markdown}
       component={ReactMarkdown}
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
       remarkPlugins={[remarkDirective, remarkGfm, remarkName]}
       skipHtml
       sx={{ display: 'grid', gap: 4 }}
-    >
-      {markdown}
-    </Box>
-  </>
+    />
+  </Box>
 );
