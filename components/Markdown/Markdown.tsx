@@ -50,7 +50,11 @@ type Props = { markdown: string; title?: string };
 
 export const Markdown: FunctionComponent<Props> = ({ markdown, title }) => (
   <>
-    {title && <Typography variant="h1">{title}</Typography>}
+    {title && (
+      <Typography gutterBottom variant="h1">
+        {title}
+      </Typography>
+    )}
     <Box
       component={ReactMarkdown}
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
