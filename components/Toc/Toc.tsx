@@ -19,13 +19,20 @@ const Entry: FunctionComponent<
 
 const Entries: FunctionComponent<{
   entries: Entry[];
+  root?: boolean;
   variant?: TypographyProps['variant'];
-}> = ({ entries, variant = 'subtitle2' }) => (
-  <ol>
+}> = ({ entries, root = false, variant = 'subtitle2' }) => (
+  <Box
+    component="ol"
+    sx={[
+      { display: 'grid', listStyleType: 'none', pl: 2 },
+      root && { gap: 1, pl: 0 },
+    ]}
+  >
     {entries.map((entry) => (
       <Entry key={entry.title} variant={variant} {...entry} />
     ))}
-  </ol>
+  </Box>
 );
 
 export const Toc: FunctionComponent<{ entries: Entry[] }> = ({ entries }) => (
@@ -36,6 +43,7 @@ export const Toc: FunctionComponent<{ entries: Entry[] }> = ({ entries }) => (
       alignSelf: 'start',
       display: { xs: 'none', md: 'block' },
       gridArea: 'toc',
+      pl: 2,
       pt: 2,
       position: 'sticky',
       top: 0,
@@ -43,6 +51,6 @@ export const Toc: FunctionComponent<{ entries: Entry[] }> = ({ entries }) => (
     }}
   >
     <Toolbar role="presentation" />
-    <Entries entries={entries} />
+    <Entries entries={entries} root />
   </Box>
 );
