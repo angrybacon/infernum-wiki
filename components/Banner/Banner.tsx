@@ -24,6 +24,7 @@ export const Banner: FunctionComponent<Props> = ({
         borderRadius: 4,
         display: 'flex',
         flexShrink: 0,
+        gridArea: 'banner',
         height: { xs: 160, md: 250 },
         justifyContent: 'center',
         overflow: 'hidden',
@@ -42,6 +43,7 @@ export const Banner: FunctionComponent<Props> = ({
           position: 'absolute',
           textAlign: 'center',
           textShadow: '0 0 8px black',
+          fontSize: { xs: 'h4.fontSize', md: 'h1.fontSize' },
         }}
         variant="h1"
       >

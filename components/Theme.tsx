@@ -24,6 +24,16 @@ export const Theme: FunctionComponent<PropsWithChildren> = ({ children }) => {
               'blockquote, ol, p, pre, ul': { margin: 0 },
             },
           },
+          MuiTypography: {
+            styleOverrides: {
+              gutterBottom: ({ theme }) => ({
+                // NOTE Assume the wrapping parent already handle spacing
+                //      between each child.
+                marginBottom: theme.spacing(1),
+                marginTop: theme.spacing(2),
+              }),
+            },
+          },
         },
         palette: { mode: withLightMode ? 'light' : 'dark' },
         typography: {

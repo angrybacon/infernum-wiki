@@ -3,6 +3,7 @@
 import { Box, Divider, Typography } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
+import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
 
@@ -49,16 +50,27 @@ const COMPONENTS_EXTRA = {
 type Props = { markdown: string; title?: string };
 
 export const Markdown: FunctionComponent<Props> = ({ markdown, title }) => (
-  <>
-    {title && <Typography variant="h1">{title}</Typography>}
+  <Box
+    sx={{
+      alignContent: 'start',
+      display: 'grid',
+      gap: 4,
+      gridArea: 'markdown',
+    }}
+  >
+    {title && (
+      <Typography gutterBottom variant="h1">
+        {title}
+      </Typography>
+    )}
     <Box
+      children={markdown}
       component={ReactMarkdown}
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
       remarkPlugins={[remarkDirective, remarkGfm, remarkName]}
+      rehypePlugins={[rehypeSlug]}
       skipHtml
       sx={{ display: 'grid', gap: 4 }}
-    >
-      {markdown}
-    </Box>
-  </>
+    />
+  </Box>
 );

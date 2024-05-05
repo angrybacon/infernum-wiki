@@ -27,28 +27,33 @@ export default function Layout({ children }: PropsWithChildren) {
   return (
     <Theme>
       <CssBaseline />
-      <html lang="en">
+      <Box
+        component="html"
+        lang="en"
+        sx={{ scrollPaddingTop: { xs: 48 + 16, md: 64 + 16 } }}
+      >
         <Box component="body" sx={{ display: 'flex' }}>
           <AppRouterCacheProvider>
             <DrawerAndHeader menu={MENU} />
             <Container
               component="main"
-              maxWidth="md"
+              maxWidth="xl"
               sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                gap: { xs: 2, sm: 4 },
-                height: '100vh',
-                mx: 'auto',
+                display: 'grid',
+                gridTemplateAreas:
+                  '"offset offset" "banner banner" "markdown toc" "footer footer"',
+                gridTemplateRows: 'auto auto 1fr auto',
+                minHeight: '100vh',
+                '> *': { mb: { xs: 2, sm: 3 } },
               }}
             >
-              <Toolbar role="presentation" />
+              <Toolbar role="presentation" sx={{ gridArea: 'offset' }} />
               {children}
-              <Footer sx={{ mt: 'auto', pb: { xs: 2, sm: 4 } }} />
+              <Footer sx={{ gridArea: 'footer', mt: 'auto', pt: 4 }} />
             </Container>
           </AppRouterCacheProvider>
         </Box>
-      </html>
+      </Box>
     </Theme>
   );
 }

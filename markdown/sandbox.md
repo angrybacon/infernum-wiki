@@ -54,11 +54,9 @@ quotes) are mandatory for a proper accessibility of your images within the page.
 
 ![A small placeholder image](https://www.placehold.co/400x50 'Low resolution')
 
-## Typography
+## Lists
 
-### Lists
-
-#### Unordered Lists
+### Unordered Lists
 
 ```md
 - Aliquam at _pretium_ eros, vitae congue orci
@@ -78,7 +76,7 @@ quotes) are mandatory for a proper accessibility of your images within the page.
     - Duis felis quam, ornare non tempor a, accumsan sed orci
 - Vivamus a facilisis est
 
-#### Ordered Lists
+### Ordered Lists
 
 ```md
 1. Aliquam at _pretium_ eros, vitae congue orci
@@ -98,7 +96,7 @@ quotes) are mandatory for a proper accessibility of your images within the page.
       1. Duis felis quam, ornare non tempor a, accumsan sed orci
 1. Vivamus a facilisis est
 
-### Paragraphs
+## Paragraphs
 
 ```md
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
@@ -116,7 +114,7 @@ libero elit `rutrum orci`, et congue sapien turpis quis purus.
 Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
 quam.
 
-### Quotes
+## Quotes
 
 ```md
 > Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
@@ -134,7 +132,7 @@ quam.
 > Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur]
 > pharetra quam.
 
-### Spoilers
+## Spoilers
 
 Inline verbatim content is not supported within spoiler blocks.
 
@@ -158,7 +156,7 @@ Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
 quam.
 :::
 
-### Tables
+## Tables
 
 The following items are not supported within tables:
 
@@ -166,7 +164,7 @@ The following items are not supported within tables:
 - Headless tables
 - Multiline text within rows
 
-#### Default Alignement
+### Default Alignement
 
 ```md
 | One                         | Two              | Three                     |
@@ -184,7 +182,7 @@ The following items are not supported within tables:
 | Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
 | Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
 
-#### Custom Alignement
+### Custom Alignement
 
 <!-- prettier-ignore-start -->
 
