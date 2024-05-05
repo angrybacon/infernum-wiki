@@ -2,10 +2,34 @@
 title: Sandbox
 ---
 
+## Preamble
+
 Rather than having to maintain any additional guidelines, refer to the following
 document in order to see how Markdown is rendered through the Wiki. It relies
 directly on components implemented within the Wiki so that the preview is as
 faithful as can be.
+
+## General Markdown Conventions
+
+In addition to `markdownlint` enforcing some basic rules, here are a few more
+conventions:
+
+- Fill your paragraphs to 80 columns
+- If your title oppose to the above rule, think of a better heading for your
+  document. In addition to annoy users with terminal-based clients, it also
+  might not look that good either on the Wiki itself
+- Heading levels start at 2 in order to account for the page title
+- Don't use unicode quote characters eg. `‘’` and `“”`. They might not render
+  properly for everyone so ASCII quotes should be preferred
+- A colon right in front of a word will be interpreted as a Markdown /directive/
+  so make sure you have a space right after `:` when it is used as punctuation
+- A dot right after a number character ie. when you end your sentence with a
+  digit, will sometimes render as a numbered list item. To avoid this behavior,
+  escape the dot with a backslash: `Astarte is level 3\.`
+- Depending on one's Markdown client, a dot at the end of a link can be
+  considered part of said link eg. when you end your sentences with a link.
+  Avoid bare links, wrap them with angled brackets `<` and `>`
+- Order for links within the drawer comes from the number prefix in file names
 
 ## Code
 
@@ -31,6 +55,24 @@ export const toDirective = (text: string): string => {
 };
 ```
 
+## Footnotes
+
+Coming soon &trade;
+
+## Frontmatter
+
+The header of a Markdown document can be referred to as the _frontmatter_. It is
+used to hold metadata for the current document without polluting its actual
+content. The syntax is YAML.
+
+- `authors`: (not used yet) Comma-separated list of usernames that should be
+  credited for the current document
+- `banner`: An upper snake case name to tell which banner should be used for the
+  article. The list of supported banners can be found [here][banners].
+- `title`: This title is used both in the drawer and at the top of the page.
+
+[banners]: https://github.com/angrybacon/infernum-wiki/tree/master/components/Banner/banners
+
 ## Images
 
 Prefer smaller images in resolution. Most users don't need a 4K screenshot of
@@ -53,6 +95,10 @@ quotes) are mandatory for a proper accessibility of your images within the page.
 ![A medium placeholder image](https://www.placehold.co/800x100 'Medium resolution')
 
 ![A small placeholder image](https://www.placehold.co/400x50 'Low resolution')
+
+## Links
+
+Coming soon &trade;
 
 ## Lists
 
