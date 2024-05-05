@@ -80,6 +80,7 @@ export const Drawer: FunctionComponent<Props> = ({ menu }) => {
                     component={NextLink}
                     href={path}
                     key={path}
+                    onClick={onClose}
                     selected={path === pathname}
                   >
                     <ListItemText primary={label} />
