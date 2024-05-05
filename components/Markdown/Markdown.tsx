@@ -50,7 +50,14 @@ const COMPONENTS_EXTRA = {
 type Props = { markdown: string; title?: string };
 
 export const Markdown: FunctionComponent<Props> = ({ markdown, title }) => (
-  <Box sx={{ display: 'grid', gap: 4, gridArea: 'markdown' }}>
+  <Box
+    sx={{
+      alignContent: 'start',
+      display: 'grid',
+      gap: 4,
+      gridArea: 'markdown',
+    }}
+  >
     {title && (
       <Typography gutterBottom variant="h1">
         {title}

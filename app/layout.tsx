@@ -39,22 +39,17 @@ export default function Layout({ children }: PropsWithChildren) {
               component="main"
               maxWidth="xl"
               sx={{
-                display: 'flex',
-                flexDirection: 'column',
+                display: 'grid',
+                gridTemplateAreas:
+                  '"offset offset" "banner banner" "markdown toc" "footer footer"',
+                gridTemplateRows: 'auto auto 1fr auto',
                 minHeight: '100vh',
                 '> *': { mb: { xs: 2, sm: 3 } },
               }}
             >
-              <Toolbar role="presentation" />
-              <Box
-                sx={{
-                  display: 'grid',
-                  gridTemplateAreas: '"banner banner" "markdown toc"',
-                }}
-              >
-                {children}
-              </Box>
-              <Footer sx={{ mt: 'auto' }} />
+              <Toolbar role="presentation" sx={{ gridArea: 'offset' }} />
+              {children}
+              <Footer sx={{ gridArea: 'footer', mt: 'auto', pt: 4 }} />
             </Container>
           </AppRouterCacheProvider>
         </Box>

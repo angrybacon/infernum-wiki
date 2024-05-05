@@ -7,11 +7,7 @@ export const Footer: FunctionComponent<{ sx: SxProps }> = ({ sx }) => (
   <Box
     component="footer"
     sx={[
-      {
-        color: 'text.secondary',
-        textAlign: 'center',
-        typography: 'caption',
-      },
+      { color: 'text.secondary', textAlign: 'center', typography: 'caption' },
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >
