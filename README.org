@@ -1,0 +1,8 @@
+#+TITLE: Infernum Wiki
+#+AUTHOR: Mathieu Marques
+
+[[./LICENSE.org][https://img.shields.io/github/license/angrybacon/infernum-wiki.svg?style=flat-square]]
+
+This is the repository that hold both the code and content behind the Infernum
+Codex (final domain to be determined). If you would like to contribute, see
+[[./CONTRIBUTING.org/][CONTRIBUTING]].
