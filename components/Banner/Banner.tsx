@@ -43,6 +43,7 @@ export const Banner: FunctionComponent<Props> = ({
           position: 'absolute',
           textAlign: 'center',
           textShadow: '0 0 8px black',
+          fontSize: { xs: 'h4.fontSize', md: 'h1.fontSize' },
         }}
         variant="h1"
       >
