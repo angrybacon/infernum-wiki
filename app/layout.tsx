@@ -27,7 +27,11 @@ export default function Layout({ children }: PropsWithChildren) {
   return (
     <Theme>
       <CssBaseline />
-      <html lang="en">
+      <Box
+        component="html"
+        lang="en"
+        sx={{ scrollPaddingTop: { xs: 48 + 16, md: 64 + 16 } }}
+      >
         <Box component="body" sx={{ display: 'flex' }}>
           <AppRouterCacheProvider>
             <DrawerAndHeader menu={MENU} />
@@ -54,7 +58,7 @@ export default function Layout({ children }: PropsWithChildren) {
             </Container>
           </AppRouterCacheProvider>
         </Box>
-      </html>
+      </Box>
     </Theme>
   );
 }
