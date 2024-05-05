@@ -1,0 +1,43 @@
+#+TITLE: Contributing
+#+AUTHOR: Mathieu Marques
+
+** Preamble
+
+Contributions are more than welcome, thank you for considering it!
+
+Pull requests work best, below are guidelines set to help you in the process of
+providing work for review.
+
+** Contributing with Content
+
+In a effort to avoid repeating myself and having to maintain things in multiple
+places, the Markdown conventions will live next to the code. Visit =/sandbox=
+anywhere the Wiki is hosted to access the guidelines.
+
+** Contributing with Code
+
+We're all consenting adults, use history as documentation and if you respect the
+existing conventions and established linting tools you can't go very wrong.
+
+** Testing your Changes
+
+This is a Next.js application written with TypeScript and I'll assume basic
+knowledge for a JavaScript stack is known from the reader. All you have to do in
+order to run the project locally is to clone the repository and install the
+JavaScript dependencies.
+
+#+BEGIN_SRC sh
+pnpm install  # Install dependencies
+pnpm dev      # Run the application on http://localhost:3000
+#+END_SRC
+
+See [[./package.json][package.json]] for a complete list of the available
+commands.
+
+Running the project locally ensures you abide by the existing conventions and
+enables live preview for your changes. If for some reason you cannot run the
+project locally, Vercel generates and updates URLs for every pull requests on
+the repository.
+
+As a general advice, avoid pushing for every little change you make as build
+minutes are free but limited.
