@@ -1,6 +1,6 @@
 ---
 authors: Doishy, ShuSh
-banner: WITNESS_THE_MARTYR
+banner: CONVERT_LEGION
 title: Excommunication
 ---
 
