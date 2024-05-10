@@ -14,7 +14,7 @@ export const Banner: FunctionComponent<Props> = ({
   const background = BANNERS[banner];
   if (!background) {
     throw new Error(
-      `Missing banner "${banner}", got "${Object.keys(BANNERS)}"`,
+      `Missing banner "${banner}", did you forget to register it in "banners/index.ts"?`,
     );
   }
   return (

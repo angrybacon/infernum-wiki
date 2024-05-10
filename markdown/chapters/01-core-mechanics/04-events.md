@@ -1,6 +1,6 @@
 ---
 authors: ShuSh, Doishy
-banner: WITNESS_THE_MARTYR
+banner: EXPOSE_TREASON
 title: Events
 ---
 
