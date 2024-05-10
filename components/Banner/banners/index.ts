@@ -8,12 +8,14 @@ import { default as CORRUPT_TRIBUTE } from './corrupt-tribute.webp';
 import { default as DARK_AUGURY } from './dark-augury.webp';
 import { default as DEMAND_OF_SUPPLICATION } from './demand-of-supplication.webp';
 import { default as ELOCUTION } from './elocution.webp';
+import { default as EVIL_WARD } from './evil-ward.webp';
 import { default as EXPOSE_TREASON } from './expose-treason.webp';
 import { default as FORGED_ORDERS } from './forged-orders.webp';
 import { default as INFERNAL_AFFLICTION } from './infernal-affliction.webp';
 import { default as INFERNAL_JUGGERNAUT } from './infernal-juggernaut.webp';
 import { default as INFERNAL_NEGOCIATION } from './infernal-negociation.webp';
 import { default as PILFER_ARTIFACT } from './pilfer-artifact.webp';
+import { default as RAISE_ABYSS_STRIDER } from './raise-abyss-strider.webp';
 import { default as TARTAREAN_PATHFINDING } from './tartarean-pathfinding.webp';
 import { default as UNDYING_VIGOR } from './undying-vigor.webp';
 import { default as VANITY_S_ANNOINTED } from './vanity-s-annointed.webp';
@@ -28,12 +30,14 @@ export const BANNERS: Record<string, StaticImageData> = {
   DARK_AUGURY,
   DEMAND_OF_SUPPLICATION,
   ELOCUTION,
+  EVIL_WARD,
   EXPOSE_TREASON,
   FORGED_ORDERS,
   INFERNAL_AFFLICTION,
   INFERNAL_JUGGERNAUT,
   INFERNAL_NEGOCIATION,
   PILFER_ARTIFACT,
+  RAISE_ABYSS_STRIDER,
   TARTAREAN_PATHFINDING,
   UNDYING_VIGOR,
   VANITY_S_ANNOINTED,
