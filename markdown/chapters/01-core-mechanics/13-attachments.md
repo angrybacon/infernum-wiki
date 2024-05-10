@@ -1,6 +1,6 @@
 ---
 authors: Doishy, ShuSh
-banner: WITNESS_THE_MARTYR
+banner: BRIBE_PRAETOR
 title: Attachments
 ---
 
