@@ -43,7 +43,7 @@ export const Toc: FunctionComponent<{ entries: Entry[] }> = ({ entries }) => (
       alignSelf: 'start',
       display: { xs: 'none', md: 'block' },
       gridArea: 'toc',
-      pl: 2,
+      pl: 3,
       pt: 2,
       position: 'sticky',
       top: 0,
