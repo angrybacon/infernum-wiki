@@ -18,8 +18,8 @@ importers:
         specifier: 11.11.5
         version: 11.11.5(@emotion/react@11.11.4(@types/react@18.3.2)(react@18.3.1))(@types/react@18.3.2)(react@18.3.1)
       '@korumite/kiwi':
-        specifier: 2.9.1
-        version: 2.9.1
+        specifier: 2.10.0
+        version: 2.10.0
       '@mdi/js':
         specifier: 7.4.47
         version: 7.4.47
@@ -462,8 +462,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@korumite/kiwi@2.9.1':
-    resolution: {integrity: sha512-aihxpDZCS/d5RMSOhygrT2J7Y4Lrm/yqtZxbJByKaxreWgIOGBx/nzRstML6uV7hq7gZmeuNYP4MUUqNFnTpHQ==}
+  '@korumite/kiwi@2.10.0':
+    resolution: {integrity: sha512-eIC4CzyRxM2JbOpEmGgS51TAHfTIJ8Q3F3jqDb1A4XHtID+Q5AE16ew4grP0XIROQQH0JIGo0Yfp/XMZJOzKsg==}
 
   '@mdi/js@7.4.47':
     resolution: {integrity: sha512-KPnNOtm5i2pMabqZxpUz7iQf+mfrYZyKCZ8QNz85czgEt7cuHcGorWfdzUMWYA0SD+a6Hn4FmJ+YhzzzjkTZrQ==}
@@ -693,9 +693,6 @@ packages:
 
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
-
-  '@types/mdast@4.0.3':
-    resolution: {integrity: sha512-LsjtqsyF+d2/yFOYaN22dHZI1Cpwkrj+g06G8+qtUKlhovPW89YhqSnfKtMbkgmEtYpH2gydRNULd6y8mciAFg==}
 
   '@types/mdast@4.0.4':
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
@@ -2929,9 +2926,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@korumite/kiwi@2.9.1':
+  '@korumite/kiwi@2.10.0':
     dependencies:
-      '@types/mdast': 4.0.3
+      '@types/mdast': 4.0.4
       gray-matter: 4.0.3
       mdast-util-toc: 7.0.1
       reading-time: 1.5.0
@@ -3132,10 +3129,6 @@ snapshots:
       '@types/unist': 3.0.2
 
   '@types/json5@0.0.29': {}
-
-  '@types/mdast@4.0.3':
-    dependencies:
-      '@types/unist': 3.0.2
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -4446,11 +4439,11 @@ snapshots:
 
   mdast-util-to-string@4.0.0:
     dependencies:
-      '@types/mdast': 4.0.3
+      '@types/mdast': 4.0.4
 
   mdast-util-toc@7.0.1:
     dependencies:
-      '@types/mdast': 4.0.3
+      '@types/mdast': 4.0.4
       '@types/ungap__structured-clone': 1.2.0
       '@ungap/structured-clone': 1.2.0
       github-slugger: 2.0.0
@@ -4983,7 +4976,7 @@ snapshots:
 
   remark@15.0.1:
     dependencies:
-      '@types/mdast': 4.0.3
+      '@types/mdast': 4.0.4
       remark-parse: 11.0.0
       remark-stringify: 11.0.0
       unified: 11.0.4
