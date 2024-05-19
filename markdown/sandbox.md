@@ -9,10 +9,8 @@ document in order to see how Markdown is rendered through the Wiki. It relies
 directly on components implemented within the Wiki so that the preview is as
 faithful as can be.
 
-## General Markdown Conventions
-
-In addition to `markdownlint` enforcing some basic rules, here are a few more
-conventions:
+In addition to `markdownlint` and `prettier` enforcing some basic rules, here
+are a few more conventions:
 
 - Fill your paragraphs to 80 columns
 - If your title oppose to the above rule, think of a better heading for your
@@ -67,9 +65,11 @@ content. The syntax is YAML.
 
 - `authors`: (not used yet) Comma-separated list of usernames that should be
   credited for the current document
-- `banner`: An upper snake case name to tell which banner should be used for the
-  article. The list of supported banners can be found [here][banners].
-- `title`: This title is used both in the drawer and at the top of the page.
+- `banner`: (mandatory) An upper snake case name to tell which banner should be
+  used for the article. The list of supported banners can be found
+  [here][banners].
+- `title`: (mandatory) This title is used both in the drawer and at the top of
+  the page.
 
 [banners]: https://github.com/angrybacon/infernum-wiki/tree/master/components/Banner/banners
 
@@ -102,26 +102,6 @@ Coming soon &trade;
 
 ## Lists
 
-### Unordered Lists
-
-```md
-- Aliquam at _pretium_ eros, vitae congue orci
-- Fusce **bibendum** ac mauris eu malesuada
-  - Aliquam aliquet sed tortor ac laoreet
-  - Aenean vel nulla et `ipsum` consequat consequat sed eget justo
-    - Donec dictum felis auctor :spoiler[semper] porttitor
-    - Duis felis quam, ornare non tempor a, accumsan sed orci
-- Vivamus a facilisis est
-```
-
-- Aliquam at _pretium_ eros, vitae congue orci
-- Fusce **bibendum** ac mauris eu malesuada
-  - Aliquam aliquet sed tortor ac laoreet
-  - Aenean vel nulla et `ipsum` consequat consequat sed eget justo
-    - Donec dictum felis auctor :spoiler[semper] porttitor
-    - Duis felis quam, ornare non tempor a, accumsan sed orci
-- Vivamus a facilisis est
-
 ### Ordered Lists
 
 ```md
@@ -142,12 +122,32 @@ Coming soon &trade;
       1. Duis felis quam, ornare non tempor a, accumsan sed orci
 1. Vivamus a facilisis est
 
+### Unordered Lists
+
+```md
+- Aliquam at _pretium_ eros, vitae congue orci
+- Fusce **bibendum** ac mauris eu malesuada
+  - Aliquam aliquet sed tortor ac laoreet
+  - Aenean vel nulla et `ipsum` consequat consequat sed eget justo
+    - Donec dictum felis auctor :spoiler[semper] porttitor
+    - Duis felis quam, ornare non tempor a, accumsan sed orci
+- Vivamus a facilisis est
+```
+
+- Aliquam at _pretium_ eros, vitae congue orci
+- Fusce **bibendum** ac mauris eu malesuada
+  - Aliquam aliquet sed tortor ac laoreet
+  - Aenean vel nulla et `ipsum` consequat consequat sed eget justo
+    - Donec dictum felis auctor :spoiler[semper] porttitor
+    - Duis felis quam, ornare non tempor a, accumsan sed orci
+- Vivamus a facilisis est
+
 ## Paragraphs
 
 ```md
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit `rutrum orci`, et congue sapien turpis quis purus.
+libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
 quam.
@@ -155,7 +155,7 @@ quam.
 
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit `rutrum orci`, et congue sapien turpis quis purus.
+libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
 quam.
@@ -165,7 +165,7 @@ quam.
 ```md
 > Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 > tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-> libero elit `rutrum orci`, et congue sapien turpis quis purus.
+> libero elit rutrum orci, et congue `sapien` turpis quis purus.
 >
 > Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur]
 > pharetra quam.
@@ -173,7 +173,7 @@ quam.
 
 > Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 > tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-> libero elit `rutrum orci`, et congue sapien turpis quis purus.
+> libero elit rutrum orci, et congue `sapien` turpis quis purus.
 >
 > Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur]
 > pharetra quam.
@@ -186,7 +186,7 @@ Inline verbatim content is not supported within spoiler blocks.
 :::spoiler
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit `rutrum orci`, et congue sapien turpis quis purus.
+libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
 quam.
@@ -196,7 +196,7 @@ quam.
 :::spoiler
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit `rutrum orci`, et congue sapien turpis quis purus.
+libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse ex ligula, elementum elementum arcu eu, :spoiler[efficitur] pharetra
 quam.

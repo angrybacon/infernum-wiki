@@ -20,16 +20,18 @@ export default [
       plugins: { import: PluginImport },
       rules: {
         '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+        '@typescript-eslint/consistent-type-imports': 'error',
         '@typescript-eslint/no-empty-function': 'off',
         '@typescript-eslint/no-unused-vars': [
           'error',
-          { argsIgnorePattern: '^_' },
+          { argsIgnorePattern: '^_', ignoreRestSiblings: true },
         ],
         'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
+        'no-console': ['error', { allow: ['error', 'warn'] }],
       },
     },
   ].map((it) => ({
-    files: ['{app,components,contexts}/**/*.{js,jsx,ts,tsx}'],
+    files: ['{app,components,contexts}/**/*.{ts,tsx}'],
     languageOptions: { parser: Ts.parser },
     ...it,
   })),

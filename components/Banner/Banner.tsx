@@ -4,7 +4,7 @@ import { type FunctionComponent } from 'react';
 
 import { BANNERS } from '@/components/Banner/banners';
 
-type Props = { banner: string; minutes: string; title: string };
+type Props = { banner: string; minutes: number; title: string };
 
 export const Banner: FunctionComponent<Props> = ({
   banner,
@@ -61,7 +61,7 @@ export const Banner: FunctionComponent<Props> = ({
           textShadow: '0 0 4px black',
         }}
       >
-        Reading time: {minutes} {minutes === '1' ? 'minute' : 'minutes'}
+        Reading time: {minutes} {minutes === 1 ? 'minute' : 'minutes'}
       </Typography>
     </Box>
   );

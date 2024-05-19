@@ -1,10 +1,9 @@
-import { makeMenu } from '@korumite/kiwi/server';
 import { Box, Container, CssBaseline, Toolbar } from '@mui/material';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import { type Metadata, type Viewport } from 'next';
 import { type PropsWithChildren } from 'react';
 
-import { CHAPTERS } from '@/app/routes';
+import { CHAPTERS } from '@/app/constants';
 import { DrawerAndHeader } from '@/components/DrawerAndHeader';
 import { Footer } from '@/components/Footer';
 import { Theme } from '@/components/Theme';
@@ -21,8 +20,6 @@ export const viewport: Viewport = {
   width: 'device-width',
 };
 
-const MENU = makeMenu(CHAPTERS.tree);
-
 export default function Layout({ children }: PropsWithChildren) {
   return (
     <Theme>
@@ -34,7 +31,7 @@ export default function Layout({ children }: PropsWithChildren) {
       >
         <Box component="body" sx={{ display: 'flex' }}>
           <AppRouterCacheProvider>
-            <DrawerAndHeader menu={MENU} />
+            <DrawerAndHeader menu={CHAPTERS.menu} />
             <Container
               component="main"
               maxWidth="xl"

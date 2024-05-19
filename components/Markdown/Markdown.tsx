@@ -34,6 +34,7 @@ const COMPONENTS = {
   h6: Heading,
   hr: () => <Divider />,
   img: Image,
+  // NOTE The `code` entries handle both block and inline code markup
   pre: ({ children }) => <>{children}</>,
   table: Table,
   tbody: TableBody,
