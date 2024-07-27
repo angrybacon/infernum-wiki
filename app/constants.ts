@@ -6,7 +6,7 @@ import {
   walk,
 } from '@korumite/kiwi/server';
 
-/** @deprecated Use `BASE_URLS` instead. */
+/** @deprecated Use `BASE_URLS.ROOT` instead. */
 const BASE_URL = join(process.cwd(), 'markdown');
 
 export const BASE_URLS = {
