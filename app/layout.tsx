@@ -1,12 +1,18 @@
-import { Box, Container, CssBaseline, Toolbar } from '@mui/material';
+import {
+  Box,
+  Container,
+  CssBaseline,
+  ThemeProvider,
+  Toolbar,
+} from '@mui/material';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import { type Metadata, type Viewport } from 'next';
 import { type PropsWithChildren } from 'react';
 
 import { CHAPTERS } from '@/app/constants';
+import { theme } from '@/app/theme';
 import { DrawerAndHeader } from '@/components/DrawerAndHeader';
 import { Footer } from '@/components/Footer';
-import { Theme } from '@/components/Theme';
 
 export const dynamicParams = false;
 
@@ -22,7 +28,7 @@ export const viewport: Viewport = {
 
 export default function Layout({ children }: PropsWithChildren) {
   return (
-    <Theme>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
       <Box
         component="html"
@@ -51,6 +57,6 @@ export default function Layout({ children }: PropsWithChildren) {
           </AppRouterCacheProvider>
         </Box>
       </Box>
-    </Theme>
+    </ThemeProvider>
   );
 }
