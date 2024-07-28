@@ -8,17 +8,24 @@ import { Toc } from '@/components/Toc/Toc';
 
 export const generateStaticParams = () => CHAPTERS.routes;
 
-export default function Chapter(context: {
+export default async function Chapter(context: {
   params: ReturnType<typeof generateStaticParams>[number];
 }) {
   const { chapter, slug } = context.params;
   const crumbs = CHAPTERS.paths[chapter]?.[slug] || [];
-  const { banner, minutes, text, title } = read(BASE_URLS.CHAPTERS, ...crumbs);
+  const { matter, minutes, text } = await read([BASE_URLS.CHAPTERS, ...crumbs]);
+  const { banner, title } = matter;
   const { items: toc } = makeToc(text);
   try {
-    if (!banner) throw new Error('Missing banner');
-    if (!title) throw new Error('Missing title');
-    if (!toc?.length) throw new Error('Could not parse table of contents');
+    if (!banner || typeof banner !== 'string') {
+      throw new Error('Missing banner');
+    }
+    if (!title || typeof title !== 'string') {
+      throw new Error('Missing title');
+    }
+    if (!toc?.length) {
+      throw new Error('Could not parse table of contents');
+    }
   } catch (error) {
     const message = error instanceof Error ? error.message : `${error}`;
     throw new Error(`${message} for "${join(...crumbs)}"`);
