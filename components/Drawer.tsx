@@ -5,6 +5,7 @@ import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
 import {
   Box,
+  Button,
   Collapse,
   Divider,
   List,
@@ -48,7 +49,11 @@ export const Drawer: FunctionComponent<Props> = ({ menu }) => {
 
   const drawer = (
     <>
-      <Toolbar role="presentation" />
+      <Toolbar sx={{ px: { sm: 2 } }}>
+        <Button href="/" size="small" variant="outlined">
+          Solium Infernum
+        </Button>
+      </Toolbar>
       <Divider />
       <List component="nav" sx={{ textTransform: 'capitalize' }}>
         {menu.map(([chapter, entries]) => (
