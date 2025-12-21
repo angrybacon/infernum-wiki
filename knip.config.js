@@ -1,1 +1,0 @@
-module.exports = { ignoreDependencies: ['sharp'] };

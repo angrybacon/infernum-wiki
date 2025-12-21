@@ -1,13 +1,13 @@
 import { Link as MuiLink, type SxProps } from '@mui/material';
 import NextLink from 'next/link';
-import { type FunctionComponent, type PropsWithChildren } from 'react';
+import { type PropsWithChildren } from 'react';
 
 type Props = PropsWithChildren & {
   href: string;
   sx?: SxProps;
 };
 
-export const Link: FunctionComponent<Props> = ({ children, href, sx }) => {
+export const Link = ({ children, href, sx }: Props) => {
   const extra = href.startsWith('http')
     ? { rel: 'noopener noreferrer', target: '_blank' }
     : {};

@@ -3,18 +3,18 @@
 import { mdiMenu } from '@mdi/js';
 import Icon from '@mdi/react';
 import {
-  alpha,
   AppBar,
   Divider,
   IconButton,
   Toolbar,
+  alpha,
   useScrollTrigger,
 } from '@mui/material';
-import { useContext, type FunctionComponent } from 'react';
+import { useContext } from 'react';
 
 import { DrawerContext } from '@/contexts/DrawerContext';
 
-export const Header: FunctionComponent = () => {
+export const Header = () => {
   const { onOpen } = useContext(DrawerContext);
   const trigger = useScrollTrigger({ disableHysteresis: true, threshold: 0 });
   return (

@@ -16,21 +16,17 @@ import {
 } from '@mui/material';
 import NextLink from 'next/link';
 import { useParams, usePathname } from 'next/navigation';
-import {
-  Fragment,
-  useContext,
-  useEffect,
-  useState,
-  type FunctionComponent,
-} from 'react';
+import { Fragment, useContext, useEffect, useState } from 'react';
 
 import { DrawerContext } from '@/contexts/DrawerContext';
 
 const WIDTH = 240;
 
-type Props = { menu: Menu };
+type Props = {
+  menu: Menu;
+};
 
-export const Drawer: FunctionComponent<Props> = ({ menu }) => {
+export const Drawer = ({ menu }: Props) => {
   const { isOpen, onClose } = useContext(DrawerContext);
   const { chapter } = useParams();
   const pathname = usePathname();

@@ -11,35 +11,32 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
-        with:
-          version: latest
-      - uses: actions/setup-node@v4
-        with:
-          cache: 'pnpm'
-          node-version-file: 'package.json'
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm lint
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Setup dependencies
+        uses: ./.github/actions/setup
+      - name: Run lint tasks
+        run: pnpm lint
 
   preview:
     name: Preview
     needs: lint
+    outputs:
+      url: ${{ steps.deploy.outputs.url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
-        with:
-          version: latest
-      - uses: actions/setup-node@v4
-        with:
-          cache: 'pnpm'
-          node-version-file: 'package.json'
-      - run: |
-          npm install --global vercel@latest
-          vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
-      - run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
-      - run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} >> $GITHUB_STEP_SUMMARY
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Setup dependencies
+        uses: ./.github/actions/setup
+      - name: Set up Vercel
+        run: pnpm add --global vercel@latest
+      - name: Pulling project settings
+        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Build
+        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Deploy
+        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} >> $GITHUB_STEP_SUMMARY
 
   release:
     name: Release
@@ -47,16 +44,15 @@ jobs:
     needs: preview
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v3
-        with:
-          version: latest
-      - uses: actions/setup-node@v4
-        with:
-          cache: 'pnpm'
-          node-version-file: 'package.json'
-      - run: |
-          npm install --global vercel@latest
-          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
-      - run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
-      - run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} >> $GITHUB_STEP_SUMMARY
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Setup dependencies
+        uses: ./.github/actions/setup
+      - name: Set up Vercel
+        run: pnpm add --global vercel@latest
+      - name: Pulling project settings
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Build
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Deploy
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} >> $GITHUB_STEP_SUMMARY

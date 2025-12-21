@@ -1,5 +1,5 @@
 ---
-title: Sandbox
+title: Markdown Guidelines
 ---
 
 ## Preamble
@@ -66,12 +66,9 @@ content. The syntax is YAML.
 - `authors`: (not used yet) Comma-separated list of usernames that should be
   credited for the current document
 - `banner`: (mandatory) An upper snake case name to tell which banner should be
-  used for the article. The list of supported banners can be found
-  [here][banners].
+  used for the article. See the list of [supported banners][banners].
 - `title`: (mandatory) This title is used both in the drawer and at the top of
   the page.
-
-[banners]: https://github.com/angrybacon/infernum-wiki/tree/master/components/Banner/banners
 
 ## Images
 
@@ -249,3 +246,5 @@ The following items are not supported within tables:
 | Quisque **libero** elit     | Aliquet sem vel  |      Quisque commodo urna |
 | Morbi consectetur non velit |  Tempor a massa  |       Orci varius natoque |
 | Sed pulvinar sapien in odio |  Cras nec nisl   |    Nascetur ridiculus mus |
+
+[banners]: https://github.com/angrybacon/infernum-wiki/tree/master/components/Banner/banners

@@ -1,16 +1,15 @@
 import { Box, Typography } from '@mui/material';
 import Image from 'next/image';
-import { type FunctionComponent } from 'react';
 
 import { BANNERS } from '@/components/Banner/banners';
 
-type Props = { banner: string; minutes: number; title: string };
+type Props = {
+  banner: string;
+  minutes: number;
+  title: string;
+};
 
-export const Banner: FunctionComponent<Props> = ({
-  banner,
-  minutes,
-  title,
-}) => {
+export const Banner = ({ banner, minutes, title }: Props) => {
   const background = BANNERS[banner];
   if (!background) {
     throw new Error(

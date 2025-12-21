@@ -1,17 +1,13 @@
-import { alpha, Box } from '@mui/material';
-import {
-  type Component,
-  type FunctionComponent,
-  type PropsWithChildren,
-} from 'react';
+import { Box, alpha } from '@mui/material';
+import { type Component, type PropsWithChildren } from 'react';
 import { type Components } from 'react-markdown';
 import { Prism, type SyntaxHighlighterProps } from 'react-syntax-highlighter';
 import { oneDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
-const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
+const CodeBlock = ({
   children,
   language,
-}) => (
+}: PropsWithChildren<{ language: string }>) => (
   <Box
     // NOTE They don't support React 18 yet
     component={Prism as typeof Component<SyntaxHighlighterProps>}
@@ -33,7 +29,7 @@ const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
   </Box>
 );
 
-const CodeInline: FunctionComponent<PropsWithChildren> = ({ children }) => (
+const CodeInline = ({ children }: PropsWithChildren) => (
   <Box
     component="code"
     sx={({ palette }) => ({

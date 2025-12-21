@@ -8,10 +8,10 @@ import { Toc } from '@/components/Toc/Toc';
 
 export const generateStaticParams = () => CHAPTERS.routes;
 
-export default async function Chapter(context: {
-  params: ReturnType<typeof generateStaticParams>[number];
-}) {
-  const { chapter, slug } = context.params;
+export default async (context: {
+  params: Promise<ReturnType<typeof generateStaticParams>[number]>;
+}) => {
+  const { chapter, slug } = await context.params;
   const crumbs = CHAPTERS.paths[chapter]?.[slug] || [];
   const { matter, minutes, text } = await read([BASE_URLS.CHAPTERS, ...crumbs]);
   const { banner, title } = matter;
@@ -37,4 +37,4 @@ export default async function Chapter(context: {
       <Toc entries={toc} />
     </>
   );
-}
+};

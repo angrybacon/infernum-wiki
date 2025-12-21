@@ -1,9 +1,12 @@
 import { Box, type SxProps } from '@mui/material';
-import { type FunctionComponent } from 'react';
 
 import { Link } from '@/components/Link';
 
-export const Footer: FunctionComponent<{ sx: SxProps }> = ({ sx }) => (
+type Props = {
+  sx: SxProps;
+};
+
+export const Footer = ({ sx }: Props) => (
   <Box
     component="footer"
     sx={[
@@ -11,7 +14,7 @@ export const Footer: FunctionComponent<{ sx: SxProps }> = ({ sx }) => (
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >
-    &copy; 2024 Solium Infernum Wiki contributors. Read the notice about{' '}
+    &copy; 2025 Solium Infernum Wiki contributors. Read the notice about{' '}
     <Link href="/license">licenses and resources</Link>.
   </Box>
 );
