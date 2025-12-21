@@ -1,13 +1,19 @@
 import { Box, Toolbar, Typography, type TypographyProps } from '@mui/material';
-import { type FunctionComponent } from 'react';
 
 import { Link } from '@/components/Link';
 
-type Entry = { items?: Entry[]; title?: string; url?: string };
+type Entry = {
+  items?: Entry[];
+  title?: string;
+  url?: string;
+};
 
-const Entry: FunctionComponent<
-  Entry & { variant: TypographyProps['variant'] }
-> = ({ items, title, url, variant }) =>
+const Entry = ({
+  items,
+  title,
+  url,
+  variant,
+}: Entry & { variant: TypographyProps['variant'] }) =>
   title && url ? (
     <Typography component="li" variant={variant}>
       <Link href={url} sx={{ ':not(:hover)': { textDecoration: 'none' } }}>
@@ -17,11 +23,15 @@ const Entry: FunctionComponent<
     </Typography>
   ) : null;
 
-const Entries: FunctionComponent<{
+const Entries = ({
+  entries,
+  root = false,
+  variant = 'subtitle2',
+}: {
   entries: Entry[];
   root?: boolean;
   variant?: TypographyProps['variant'];
-}> = ({ entries, root = false, variant = 'subtitle2' }) => (
+}) => (
   <Box
     component="ol"
     sx={[
@@ -35,7 +45,11 @@ const Entries: FunctionComponent<{
   </Box>
 );
 
-export const Toc: FunctionComponent<{ entries: Entry[] }> = ({ entries }) => (
+type Props = {
+  entries: Entry[];
+};
+
+export const Toc = ({ entries }: Props) => (
   <Box
     aria-label="Table of contents"
     component="nav"

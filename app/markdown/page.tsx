@@ -4,8 +4,8 @@ import { BASE_URLS } from '@/app/constants';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { Toc } from '@/components/Toc/Toc';
 
-export default async function Sandbox() {
-  const { matter, text } = await read([BASE_URLS.ROOT, 'sandbox.md']);
+export default async () => {
+  const { matter, text } = await read([BASE_URLS.ROOT, 'markdown.md']);
   if (!matter.title || typeof matter.title !== 'string') {
     throw new Error('Missing title');
   }
@@ -19,4 +19,4 @@ export default async function Sandbox() {
       <Toc entries={toc} />
     </>
   );
-}
+};

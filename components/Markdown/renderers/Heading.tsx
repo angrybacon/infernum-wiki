@@ -9,13 +9,7 @@ export const Heading: Components['h1'] = ({ children, id, node }) => {
     console.error('Could not guess heading level', node);
   }
   return (
-    <Typography
-      gutterBottom
-      id={id}
-      // NOTE Prevent long headings to trigger horizontal scroll
-      sx={{ overflowX: 'hidden' }}
-      variant={variant}
-    >
+    <Typography gutterBottom id={id} variant={variant}>
       {children}
     </Typography>
   );

@@ -1,10 +1,9 @@
 import { mdiFormatQuoteOpen } from '@mdi/js';
 import Icon from '@mdi/react';
-import { alpha, Box } from '@mui/material';
-import { type FunctionComponent } from 'react';
+import { Box, alpha } from '@mui/material';
 import { type Components } from 'react-markdown';
 
-const QuoteIcon: FunctionComponent<{ side: 'left' | 'right' }> = ({ side }) => (
+const QuoteIcon = ({ side }: { side: 'left' | 'right' }) => (
   <Box
     component={Icon}
     path={mdiFormatQuoteOpen}
